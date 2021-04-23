@@ -9,7 +9,7 @@ Personal project to use learned skills
 
 This project is for educational porpuses only. 
 
-Site published at https://paulius101.github.io/Bull/
+Site published at https://paulius101.github.io/Spongebob/
 
 
 ## Project features
