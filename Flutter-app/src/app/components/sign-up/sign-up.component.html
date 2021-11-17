@@ -1,0 +1,18 @@
+<div class="nav">
+    <div class="path"></div>
+    <h1>Sing Up</h1>
+    <div class="rectangle"></div>
+    <div class="rectangle-copy"></div>
+</div>
+<img src="#" alt="sign-up-lock">
+<form #signUpForm="ngForm">
+    <input type="email" #emailInput="ngModel" name="userEmail" placeholder="Enter email" ngModel required minlength="6" maxlength="30" [ngClass]="{
+            greenBorder: isValidEmail(emailInput) ,
+            redBorder:  !isValidEmail(emailInput)  && emailInput.touched
+         }">
+
+    <input type="password" name="password" #passwordInput="ngModel" ngModel required placeholder="Enter password"> <br>
+    <div *ngIf="passwordInput.invalid && passwordInput.touched">Password doesn't meet the requirements</div>
+</form>
+
+<button (click)="signUp(signUpForm)">Sing Up</button>
