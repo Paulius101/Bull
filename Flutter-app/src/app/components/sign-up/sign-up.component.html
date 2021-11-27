@@ -4,7 +4,7 @@
     <div class="rectangle"></div>
     <div class="rectangle-copy"></div>
 </div>
-<img src="#" alt="sign-up-lock">
+<img src="../../../assets/signup.png" alt="sign-up-lock">
 <form #signUpForm="ngForm">
     <input type="email" #emailInput="ngModel" name="userEmail" placeholder="Enter email" ngModel required minlength="6" maxlength="30" [ngClass]="{
             greenBorder: isValidEmail(emailInput) ,
@@ -23,9 +23,15 @@
 <span>or</span>
 
 <div class="socials">
-    <div class="fb"></div>
-    <div class="tw"></div>
-    <div class="in"></div>
+    <div class="fb">
+        <img src="../../../assets/facebook.png" alt="">
+    </div>
+    <div class="tw">
+        <img src="../../../assets/twitter.png" alt="">
+    </div>
+    <div class="in">
+        <img src="../../../assets/linkedin.png" alt="">
+    </div>
 </div>
 
 <span>Already have an account? </span>
