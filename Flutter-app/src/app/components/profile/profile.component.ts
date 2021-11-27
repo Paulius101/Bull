@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { AccessService } from 'src/app/services/access.service';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
-  constructor() { }
+  constructor(public accessService: AccessService) { }
 
   ngOnInit(): void {
   }

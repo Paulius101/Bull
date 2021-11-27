@@ -3,6 +3,40 @@
     <div class="rectangle"></div>
     <div class="rectangle-copy"></div>
 </div>
-<div class="profileArea">
-    <img src="../../../assets/profile.png" alt="">
+<div class="top">
+    <div class="profileArea">
+        <img src="../../../assets/profile.png" alt="profile-pic">
+        <span id="usr">Username</span><br>
+        <span id="location">New York</span>
+        <img src="../../../assets/Oval.png" alt="oval">
+        <span id="id">ID: 112061</span>
+        <a href="f">Edit</a>
+    </div>
+
+    <button>About Me</button>
+    <button (click)="accessService.logout()">Log Out</button>
+</div>
+
+<div class="bottom">
+    <div class="phone">
+        <img src="../../../assets/phone.png" alt="phone">
+        <div class="info">
+            <span>Phone number</span><br>
+            <span>+3788888888</span>
+        </div>
+    </div>
+    <div class="email">
+        <img src="../../../assets/email.png" alt="email">
+        <div class="info">
+            <span>Email</span><br>
+            <span>user@gmail.com</span>
+        </div>
+    </div>
+    <div class="projects">
+        <img src="../../../assets/circle.png" alt="projects">
+        <div class="info">
+            <span>Completed projects</span><br>
+            <span>248</span>
+        </div>
+    </div>
 </div>
