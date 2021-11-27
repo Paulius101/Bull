@@ -1,1 +1,26 @@
-<p>sign-in works!</p>
+<div class="nav">
+    <div class="path"></div>
+    <h1>Sing In</h1>
+    <div class="rectangle"></div>
+    <div class="rectangle-copy"></div>
+</div>
+
+<img src="#" alt="sign-in-pencil">
+
+<div class="form">
+    <input [(ngModel)]="user.username" placeholder="Username"> <br>
+    <input [(ngModel)]="user.password" placeholder="Password" type="password"> <br>
+    <button (click)="login()">Login</button>
+</div>
+
+<span>or</span>
+
+<div class="socials">
+    <div class="fb"></div>
+    <div class="tw"></div>
+    <div class="in"></div>
+</div>
+
+<span>Don't have an account? </span>
+
+<a routerLink="/sign-up">Sign up</a>

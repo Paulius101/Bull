@@ -13,6 +13,21 @@
 
     <input type="password" name="password" #passwordInput="ngModel" ngModel required placeholder="Enter password"> <br>
     <div *ngIf="passwordInput.invalid && passwordInput.touched">Password doesn't meet the requirements</div>
+
+    <input type="password" name="passwordRepeat" #passwordRepeatInput="ngModel" ngModel required placeholder="Confirm password"> <br>
+    <div *ngIf="passwordRepeatInput !== passwordInput && passwordRepeatInput.invalid && passwordRepeatInput.touched ">Passwords do not match</div>
 </form>
 
 <button (click)="signUp(signUpForm)">Sing Up</button>
+
+<span>or</span>
+
+<div class="socials">
+    <div class="fb"></div>
+    <div class="tw"></div>
+    <div class="in"></div>
+</div>
+
+<span>Already have an account? </span>
+
+<a routerLink="/sign-in">Sign in</a>

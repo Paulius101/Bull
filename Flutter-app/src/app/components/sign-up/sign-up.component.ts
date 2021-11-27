@@ -33,6 +33,10 @@ export class SignUpComponent implements OnInit {
 
 const username = form.controls.userEmail.value
 const password = form.controls.password.value
+console.log(username);
+console.log(password);
+
+// const passwordRepeat = form.control.passwordRepeat.value
 
     const user:User = {
       username:username,

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseRestUrl: "http://localhost:3000"
+ baseRestUrl: "https://stocks-server-paskaitos.herokuapp.com"
 };
 
 /*
