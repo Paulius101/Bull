@@ -9,6 +9,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import { MessagesComponent } from './components/messages/messages.component';
+import { SocialsComponent } from './components/socials/socials.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MessagesComponent } from './components/messages/messages.component';
     SignInComponent,
     SignUpComponent,
     ProfileComponent,
-    MessagesComponent
+    MessagesComponent,
+    SocialsComponent
   ],
   imports: [
     BrowserModule,

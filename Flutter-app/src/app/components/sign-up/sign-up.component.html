@@ -1,8 +1,12 @@
 <div class="nav">
-    <div class="path"></div>
-    <h1>Sing Up</h1>
-    <div class="rectangle"></div>
-    <div class="rectangle-copy"></div>
+    <div class="path">
+        <img src="../../../assets/arrow.png" alt="arrow">
+    </div>
+    <h1>Sign Up</h1>
+    <div class="reactangles">
+        <img src="../../../assets/Rectangle.png" alt="reactangle">
+        <img src="../../../assets/Rectangle Copy.png" alt="reactangle-copy">
+    </div>
 </div>
 <img src="../../../assets/signup.png" alt="sign-up-lock">
 <form #signUpForm="ngForm">
@@ -20,19 +24,7 @@
 
 <button (click)="signUp(signUpForm)">Sing Up</button>
 
-<span>or</span>
-
-<div class="socials">
-    <div class="fb">
-        <img src="../../../assets/facebook.png" alt="">
-    </div>
-    <div class="tw">
-        <img src="../../../assets/twitter.png" alt="">
-    </div>
-    <div class="in">
-        <img src="../../../assets/linkedin.png" alt="">
-    </div>
-</div>
+<app-socials></app-socials>
 
 <span>Already have an account? </span>
 
