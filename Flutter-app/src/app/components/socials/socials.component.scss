@@ -1,0 +1,52 @@
+$ColorSoc: #1777F2;
+$ColorSoc1:#1DA1F2;
+$ColorSoc2:#0078B5;
+
+.socials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  p {
+    color: #838391;
+    font-family: "Roboto";
+    font-size: 1.6rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.04rem;
+    text-align: center;
+    margin: 0rem;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10rem;
+      height: 6rem;
+      border: 0.1rem solid rgba(226, 226, 224, 0.4854);
+      mix-blend-mode: normal;
+      box-sizing: border-box;
+
+      #fb {
+        color: $ColorSoc;
+        font-size: 1.424rem;
+      }
+
+      #tw {
+        color: $ColorSoc1;
+        font-size: 1.571rem;
+      }
+
+      #ln {
+        color: $ColorSoc2;
+        font-size: 1.581rem;
+      }
+    }
+  }
+}

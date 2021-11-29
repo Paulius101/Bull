@@ -10,6 +10,7 @@ import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import { MessagesComponent } from './components/messages/messages.component';
 import { SocialsComponent } from './components/socials/socials.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -18,13 +19,15 @@ import { SocialsComponent } from './components/socials/socials.component';
     SignUpComponent,
     ProfileComponent,
     MessagesComponent,
-    SocialsComponent
+    SocialsComponent,
+ 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

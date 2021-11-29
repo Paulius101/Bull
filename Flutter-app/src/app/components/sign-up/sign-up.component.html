@@ -1,31 +1,38 @@
-<div class="nav">
-    <div class="path">
-        <img src="../../../assets/arrow.png" alt="arrow">
-    </div>
-    <h1>Sign Up</h1>
-    <div class="reactangles">
-        <img src="../../../assets/Rectangle.png" alt="reactangle">
-        <img src="../../../assets/Rectangle Copy.png" alt="reactangle-copy">
-    </div>
-</div>
-<img src="../../../assets/signup.png" alt="sign-up-lock">
-<form #signUpForm="ngForm">
-    <input type="email" #emailInput="ngModel" name="userEmail" placeholder="Enter email" ngModel required minlength="6" maxlength="30" [ngClass]="{
+<div class="sign-up">
+    <div class="container">
+        <div class="nav">
+            <div class="path">
+                <img src="../../../assets/arrow.png" alt="arrow">
+            </div>
+            <h1>Sign Up</h1>
+            <div class="reactangles">
+                <img id="big" src="../../../assets/Rectangle.png" alt="reactangle">
+                <img id="small" src="../../../assets/Rectangle Copy.png" alt="reactangle-copy">
+            </div>
+        </div>
+
+        <img id="sign-up" src="../../../assets/signup.png" alt="sign-up-lock">
+
+        <div class="form-to-socials-container">
+            <form #signUpForm="ngForm">
+                <input type="email" #emailInput="ngModel" name="userEmail" placeholder="Enter email" ngModel required minlength="6" maxlength="30" [ngClass]="{
             greenBorder: isValidEmail(emailInput) ,
             redBorder:  !isValidEmail(emailInput)  && emailInput.touched
          }">
 
-    <input type="password" name="password" #passwordInput="ngModel" ngModel required placeholder="Enter password"> <br>
-    <div *ngIf="passwordInput.invalid && passwordInput.touched">Password doesn't meet the requirements</div>
+                <input type="password" name="password" #passwordInput="ngModel" ngModel required placeholder="Enter password">
+                <div *ngIf="passwordInput.invalid && passwordInput.touched">Password doesn't meet the requirements</div>
 
-    <input type="password" name="passwordRepeat" #passwordRepeatInput="ngModel" ngModel required placeholder="Confirm password"> <br>
-    <div *ngIf="passwordRepeatInput !== passwordInput && passwordRepeatInput.invalid && passwordRepeatInput.touched ">Passwords do not match</div>
-</form>
+                <input type="password" name="passwordRepeat" #passwordRepeatInput="ngModel" ngModel required placeholder="Confirm password">
+                <div *ngIf="passwordRepeatInput !== passwordInput && passwordRepeatInput.invalid && passwordRepeatInput.touched ">Passwords do not match</div>
+            </form>
 
-<button (click)="signUp(signUpForm)">Sing Up</button>
+            <button (click)="signUp(signUpForm)">Sing Up</button>
 
-<app-socials></app-socials>
+            <app-socials></app-socials>
 
-<span>Already have an account? </span>
+        </div>
 
-<a routerLink="/sign-in">Sign in</a>
+        <p id="footer">Already have an account?<a routerLink="/sign-in">Sign in</a></p>
+    </div>
+</div>
