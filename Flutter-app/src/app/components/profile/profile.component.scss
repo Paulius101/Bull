@@ -1,0 +1,178 @@
+$bgColor: #FFFFFF;
+$bgColor1: #20C3AF;
+$bgColor2: #525464;
+$Color1:#838391;
+$Color2: #FFB19D;
+$Color3:#525464;
+$bordColor: #E2E2E0;
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 37.5rem;
+  height: auto;
+  background-color: $bgColor;
+
+  .top {
+    margin: 8%;
+    display: flex;
+    flex-direction: column;
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6.83%;
+
+      .path {
+        width: 0.975rem;
+        height: 1.623rem;
+        // position: absolute;
+        // top: 3.235rem;
+        // left: 3.013rem;
+      }
+
+      .reactangles {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        gap: 0.4rem;
+
+        #big {
+          // position: absolute;
+          width: 1.8rem;
+          height: 0.2rem;
+          // top: 3.6rem;
+          // left: 32.7rem;
+
+        }
+
+        #small {
+          // position: absolute;
+          margin-left: 0.6rem;
+          width: 1.2rem;
+          height: 0.2rem;
+          // top: 4.2rem;
+          // left: 33.3rem;
+        }
+      }
+    }
+
+
+    .profileArea {
+      // width: 20.3rem;
+      // height: 19.6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // gap: 1rem;
+      // justify-content: space-between;
+
+      #usr {
+        color: $Color3;
+        font-weight: 50rem;
+        font-size: 2.4rem;
+        line-height: 2.758rem;
+        letter-spacing: 0.033;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+      }
+
+      .Img_Profile {
+        border-radius: 36rem;
+        width: 11.4rem;
+        height: 11.4rem;
+        contain: content;
+
+        #photo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          overflow: hidden;
+        }
+      }
+
+      .location {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+
+        p {
+          color: $Color1;
+          font-weight: 50rem;
+          font-size: 1.6rem;
+          line-height: 2.2rem;
+          letter-spacing: 0.033;
+        }
+
+        img {
+          width: 0.536rem;
+          height: 0.5rem;
+        }
+      }
+
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $Color2;
+      font-weight: 90rem;
+      font-size: 1.6rem;
+      line-height: 1.875rem;
+      letter-spacing: 0.033rem;
+      margin: 3%;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: space-around;
+      // margin-bottom: 4rem;
+
+      button {
+        width: 15rem;
+        height: 6rem;
+        border: none;
+        font-weight: 90rem;
+        font-size: 1.6rem;
+        line-height: 1.875rem;
+        text-align: center;
+        letter-spacing: 0.04rem;
+      }
+
+      button:hover {
+        cursor: pointer;
+      }
+
+      button:first-of-type {
+        color: $Color1;
+        background-color: $bgColor;
+        border-color: $bordColor;
+        border: 1px solid $bordColor;
+        box-sizing: border-box;
+      }
+
+      button:last-of-type {
+        background-color: $bgColor1;
+        color: $bgColor;
+        box-sizing: border-box;
+      }
+    }
+
+
+  }
+
+  .bottom {
+    background-color: $bgColor2;
+    width: 100%;
+  }
+}

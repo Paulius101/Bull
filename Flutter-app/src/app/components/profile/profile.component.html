@@ -1,46 +1,56 @@
-<div class="nav">
-    <div class="path">
-        <img src="../../../assets/arrow.png" alt="arrow">
-    </div>
-    <div class="reactangles">
-        <img src="../../../assets/Rectangle.png" alt="reactangle">
-        <img src="../../../assets/Rectangle Copy.png" alt="reactangle-copy">
-    </div>
-</div>
-<div class="top">
-    <div class="profileArea">
-        <img src="../../../assets/profile.png" alt="profile-pic">
-        <span id="usr">Username</span><br>
-        <span id="location">New York</span>
-        <img src="../../../assets/Oval.png" alt="oval">
-        <span id="id">ID: 112061</span>
+<div class="profile">
+    <div class="top">
+        <div class="nav">
+            <div class="path">
+                <img src="../../../assets/arrow.png" alt="arrow">
+            </div>
+            <div class="reactangles">
+                <img id="big" src="../../../assets/Rectangle.png" alt="reactangle">
+                <img id="small" src="../../../assets/Rectangle Copy.png" alt="reactangle-copy">
+            </div>
+        </div>
+
+        <div class="profileArea">
+            <div class="Img_Profile">
+                <img id="photo" src="../../../assets/profile.png" alt="profile-pic">
+            </div>
+            <p id="usr">Username</p><br>
+            <div class="location">
+                <p id="location">New York</p>
+                <img id="oval" src="../../../assets/Oval.png" alt="oval">
+                <p id="id">ID: 112061</p>
+            </div>
+        </div>
+
         <a href="f">Edit</a>
-    </div>
 
-    <button>About Me</button>
-    <button (click)="accessService.logout()">Log Out</button>
-</div>
+        <div class="actions">
+            <button>About Me</button>
+            <button (click)="accessService.logout()">Log Out</button>
+        </div>
 
-<div class="bottom">
-    <div class="phone">
-        <img src="../../../assets/phone.png" alt="phone">
-        <div class="info">
-            <span>Phone number</span><br>
-            <span>+3788888888</span>
-        </div>
     </div>
-    <div class="email">
-        <img src="../../../assets/email.png" alt="email">
-        <div class="info">
-            <span>Email</span><br>
-            <span>user@gmail.com</span>
+    <div class="bottom">
+        <div class="phone">
+            <img src="../../../assets/phone.png" alt="phone">
+            <div class="info">
+                <p>Phone number</p><br>
+                <p>+3788888888</p>
+            </div>
         </div>
-    </div>
-    <div class="projects">
-        <img src="../../../assets/circle.png" alt="projects">
-        <div class="info">
-            <span>Completed projects</span><br>
-            <span>248</span>
+        <div class="email">
+            <img src="../../../assets/email.png" alt="email">
+            <div class="info">
+                <p>Email</p><br>
+                <p>user@gmail.com</p>
+            </div>
+        </div>
+        <div class="projects">
+            <img src="../../../assets/circle.png" alt="projects">
+            <div class="info">
+                <p>Completed projects</p><br>
+                <p>248</p>
+            </div>
         </div>
     </div>
 </div>
