@@ -4,7 +4,9 @@ $bgColor2: #525464;
 $Color1:#838391;
 $Color2: #FFB19D;
 $Color3:#525464;
+$Color4:#FFFFFF;
 $bordColor: #E2E2E0;
+$bordColor1:#ECECEB;
 
 .profile {
   display: flex;
@@ -19,7 +21,7 @@ $bordColor: #E2E2E0;
   background-color: $bgColor;
 
   .top {
-    margin: 8%;
+    margin: 3.2rem;
     display: flex;
     flex-direction: column;
 
@@ -27,14 +29,11 @@ $bordColor: #E2E2E0;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 6.83%;
+      margin-bottom: 5.5rem;
 
       .path {
         width: 0.975rem;
         height: 1.623rem;
-        // position: absolute;
-        // top: 3.235rem;
-        // left: 3.013rem;
       }
 
       .reactangles {
@@ -44,44 +43,34 @@ $bordColor: #E2E2E0;
         gap: 0.4rem;
 
         #big {
-          // position: absolute;
           width: 1.8rem;
           height: 0.2rem;
-          // top: 3.6rem;
-          // left: 32.7rem;
-
         }
 
         #small {
-          // position: absolute;
           margin-left: 0.6rem;
           width: 1.2rem;
           height: 0.2rem;
-          // top: 4.2rem;
-          // left: 33.3rem;
         }
       }
     }
 
 
     .profileArea {
-      // width: 20.3rem;
-      // height: 19.6rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      // gap: 1rem;
-      // justify-content: space-between;
 
       #usr {
         color: $Color3;
+        font-family: 'Ubuntu';
         font-weight: 50rem;
         font-size: 2.4rem;
         line-height: 2.758rem;
         letter-spacing: 0.033;
         text-align: center;
-        margin-top: 1rem;
+        margin-top: 2rem;
         margin-bottom: 0rem;
       }
 
@@ -101,11 +90,13 @@ $bordColor: #E2E2E0;
       }
 
       .location {
+        font-family: 'Roboto';
         display: flex;
         gap: 1.5rem;
         align-items: center;
 
         p {
+          margin: 0rem;
           color: $Color1;
           font-weight: 50rem;
           font-size: 1.6rem;
@@ -122,6 +113,7 @@ $bordColor: #E2E2E0;
     }
 
     a {
+      font-family: 'Roboto';
       display: flex;
       justify-content: center;
       align-items: center;
@@ -130,15 +122,15 @@ $bordColor: #E2E2E0;
       font-size: 1.6rem;
       line-height: 1.875rem;
       letter-spacing: 0.033rem;
-      margin: 3%;
+      margin: 2.5rem;
     }
 
     .actions {
       display: flex;
       justify-content: space-around;
-      // margin-bottom: 4rem;
 
       button {
+        font-family: 'Roboto';
         width: 15rem;
         height: 6rem;
         border: none;
@@ -157,7 +149,7 @@ $bordColor: #E2E2E0;
         color: $Color1;
         background-color: $bgColor;
         border-color: $bordColor;
-        border: 1px solid $bordColor;
+        border: 1px solid rgba(226, 226, 224, 0.4854);
         box-sizing: border-box;
       }
 
@@ -173,6 +165,87 @@ $bordColor: #E2E2E0;
 
   .bottom {
     background-color: $bgColor2;
-    width: 100%;
+
+    .container-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.6rem;
+      margin: 4rem 3rem;
+
+      .info-block {
+        display: flex;
+        align-items: center;
+        mix-blend-mode: normal;
+        border: 0.1rem solid rgba(226, 226, 224, 0.3043);
+        box-sizing: border-box;
+
+        .img {
+          padding: 1.2rem 2.5rem;
+          border-right: 0.1rem solid rgba(236, 236, 235, 0.3);
+        }
+      }
+
+      .info {
+
+        padding: 1.2rem 2.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        p {
+          font-family: 'Roboto';
+          margin: 0rem;
+          display: flex;
+          flex-direction: column;
+          color: $Color4;
+          opacity: 0.381;
+          font-weight: 50rem;
+          font-size: 1.4rem;
+          line-height: 2.2rem;
+          letter-spacing: 0.029rem;
+          mix-blend-mode: normal;
+
+        }
+
+        p:last-of-type {
+
+          opacity: 1;
+          font-size: 1.6rem;
+          letter-spacing: 0.033rem;
+        }
+      }
+
+      .phone {
+        img {
+          width: 1.79rem;
+          height: 1.794rem;
+        }
+      }
+
+      .email {
+        .email-img-container {
+          img:first-of-type {
+            position: relative;
+            width: 2.031rem;
+            height: 1.529rem;
+          }
+
+          img:last-of-type {
+            position: absolute;
+            left: 5.6rem;
+            width: 2.031rem;
+            height: 0.985rem;
+          }
+        }
+      }
+
+      .projects {
+        img {
+          width: 2.2rem;
+          height: 2.2rem;
+        }
+      }
+    }
   }
 }
