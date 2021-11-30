@@ -13,23 +13,26 @@ $bordColor1:#ECECEB;
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
+  contain: content;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 37.5rem;
-  height: 81.2rem;
+  height: auto;
   background-color: $bgColor;
 
   .top {
     margin: 3.2rem;
     display: flex;
     flex-direction: column;
+    contain: content;
 
     .nav {
+      contain: content;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 5.5rem;
+      margin-bottom: 10%;
 
       .path {
         width: 0.975rem;
@@ -61,6 +64,7 @@ $bordColor1:#ECECEB;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      contain: content;
 
       #usr {
         color: $Color3;
@@ -164,9 +168,11 @@ $bordColor1:#ECECEB;
   }
 
   .bottom {
+    contain: content;
     background-color: $bgColor2;
 
     .container-info {
+      contain: content;
       display: flex;
       flex-direction: column;
       justify-content: space-between;

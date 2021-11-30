@@ -11,6 +11,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { MessagesComponent } from './components/messages/messages.component';
 import { SocialsComponent } from './components/socials/socials.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { OpeningEffectComponent } from './components/opening-effect/opening-effect.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProfileComponent,
     MessagesComponent,
     SocialsComponent,
+    OpeningEffectComponent,
  
   ],
   imports: [

@@ -10,12 +10,13 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: absolute;
+  contain: content;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 37.5rem;
-  height: 81.2rem;
+  height: auto;
   background-color: #FFFFFF;
 }
 
@@ -28,9 +29,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  contain: content;
 }
 
 .profile .top .nav {
+  contain: content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +43,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 5.5rem;
+  margin-bottom: 10%;
 }
 
 .profile .top .nav .path {
@@ -87,6 +90,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  contain: content;
 }
 
 .profile .top .profileArea #usr {
@@ -202,10 +206,12 @@
 }
 
 .profile .bottom {
+  contain: content;
   background-color: #525464;
 }
 
 .profile .bottom .container-info {
+  contain: content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

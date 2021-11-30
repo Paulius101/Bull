@@ -4,6 +4,9 @@ import {AccessService} from "src/app/services/access.service";
 import {MessagesService} from "src/app/services/messages.service";
 import {NotificationType} from "src/app/models/notification";
 import {Router} from "@angular/router";
+import {
+  gsap
+} from 'gsap';
 
 @Component({
   selector: 'app-login',
@@ -23,6 +26,17 @@ export class SignInComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    const listAnim = gsap.timeline({
+      defaults: {
+        ease: "power1.out"
+      }
+    });
+    listAnim.fromTo(".sign-in", {
+      opacity: 0
+    }, {
+      opacity: 1,
+      duration: 1
+    }, "3");
   }
 
   public login(): void {
