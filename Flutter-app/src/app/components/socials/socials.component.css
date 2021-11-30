@@ -68,6 +68,10 @@
   font-size: 1.581rem;
 }
 
+.socials-container .socials .container:hover {
+  cursor: pointer;
+}
+
 @media (max-height: 650px) {
   .socials-container .socials .container {
     height: 4rem;

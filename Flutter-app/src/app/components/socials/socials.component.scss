@@ -34,6 +34,7 @@ $ColorSoc2:#0078B5;
       mix-blend-mode: normal;
       box-sizing: border-box;
 
+
       #fb {
         color: $ColorSoc;
         font-size: 1.424rem;
@@ -48,6 +49,10 @@ $ColorSoc2:#0078B5;
         color: $ColorSoc2;
         font-size: 1.581rem;
       }
+    }
+
+    .container:hover {
+      cursor: pointer;
     }
   }
 }
