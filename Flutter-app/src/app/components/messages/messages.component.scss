@@ -1,25 +1,39 @@
 :host {
-  width: 350px;
+  width: 15rem;
+  height: 5rem;
   position: fixed;
-  right: 20px;
-  top: 20px;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  // right: 20px;
+  // top: 20px;
   z-index: 1;
 }
 
+
+
 .message {
-  border-radius: 5px;
-  padding: 20px;
-  line-height: 1.5em;
+  border: none;
+  color: #525464;
+  padding: 2rem;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin-bottom: 20px;
   background-color: white;
+  font-family: "Roboto";
+  font-weight: 90rem;
+  font-size: 1.6rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.04rem;
+  text-align: center;
+  margin: 0rem;
 
   &.error {
-    background-color: lightcoral;
+    background-color: #FFB19D;
+    ;
   }
 
   &.success {
-    background-color: lightgreen;
+    background-color: #20C3AF;
   }
 
   &.warning {
