@@ -159,7 +159,7 @@ $inputBg: #F7F7F7;
   }
 }
 
-@media (max-width:360px) {
+@media (max-height:811px) {
   .sign-in {
 
     .container {
@@ -188,6 +188,50 @@ $inputBg: #F7F7F7;
         button {
           height: 5rem;
           margin-top: 3.4rem;
+        }
+
+        button:hover {
+          cursor: pointer;
+        }
+      }
+
+      #footer {
+        margin-top: 4rem;
+      }
+    }
+  }
+}
+
+
+@media (max-height:650px) {
+  .sign-in {
+
+    .container {
+      margin-bottom: 0px;
+      margin-top: 10px;
+
+      .nav {
+        margin-bottom: 1.5rem;
+      }
+
+      #sign-in {
+        width: 5.5rem;
+        height: 6.5rem;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+      }
+
+
+      .form-to-socials-container {
+        .form {
+          input {
+            height: 4rem;
+          }
+        }
+
+        button {
+          height: 4rem;
+          margin-top: 0rem;
         }
 
         button:hover {

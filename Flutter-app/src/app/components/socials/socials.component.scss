@@ -51,3 +51,13 @@ $ColorSoc2:#0078B5;
     }
   }
 }
+
+@media (max-height:650px) {
+  .socials-container {
+    .socials {
+      .container {
+        height: 4rem;
+      }
+    }
+  }
+}

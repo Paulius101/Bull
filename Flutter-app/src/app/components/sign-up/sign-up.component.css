@@ -231,7 +231,7 @@
   font-weight: 50rem;
 }
 
-@media (max-width: 374px) {
+@media (max-height: 811px) {
   .sign-up .container {
     margin-bottom: 0px;
     margin-top: 10px;

@@ -224,7 +224,7 @@
   font-weight: 50rem;
 }
 
-@media (max-width: 360px) {
+@media (max-height: 811px) {
   .sign-in .container {
     margin-bottom: 0px;
     margin-top: 10px;
@@ -244,6 +244,35 @@
   .sign-in .container .form-to-socials-container button {
     height: 5rem;
     margin-top: 3.4rem;
+  }
+  .sign-in .container .form-to-socials-container button:hover {
+    cursor: pointer;
+  }
+  .sign-in .container #footer {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-height: 650px) {
+  .sign-in .container {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .sign-in .container .nav {
+    margin-bottom: 1.5rem;
+  }
+  .sign-in .container #sign-in {
+    width: 5.5rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  .sign-in .container .form-to-socials-container .form input {
+    height: 4rem;
+  }
+  .sign-in .container .form-to-socials-container button {
+    height: 4rem;
+    margin-top: 0rem;
   }
   .sign-in .container .form-to-socials-container button:hover {
     cursor: pointer;

@@ -306,7 +306,7 @@
   height: 2.2rem;
 }
 
-@media (max-width: 374px) {
+@media (max-height: 811px) {
   .profile .top {
     margin: 3.2rem;
     margin-top: 0rem;

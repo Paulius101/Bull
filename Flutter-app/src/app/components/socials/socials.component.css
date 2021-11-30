@@ -67,3 +67,9 @@
   color: #0078B5;
   font-size: 1.581rem;
 }
+
+@media (max-height: 650px) {
+  .socials-container .socials .container {
+    height: 4rem;
+  }
+}
