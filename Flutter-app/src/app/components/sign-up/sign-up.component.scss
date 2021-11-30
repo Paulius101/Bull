@@ -10,6 +10,14 @@ $bordColor: #E2E2E0;
 $bordColor1:#ECECEB;
 $inputBg: #F7F7F7;
 
+.greenBorder {
+  border: 1px solid $bgColor1;
+}
+
+.redBorder {
+  border: 1px solid $Color2
+}
+
 .sign-up {
   display: flex;
   flex-direction: column;
@@ -20,7 +28,7 @@ $inputBg: #F7F7F7;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 37.5rem;
-  height: auto;
+  height: 81.2rem;
   background-color: $bgColor;
 
   .container {

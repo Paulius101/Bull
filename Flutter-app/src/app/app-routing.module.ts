@@ -14,6 +14,7 @@ import {
 import {
   ProfileComponent
 } from './components/profile/profile.component';
+import { LoginGuard } from './guards/login.guard';
 
 const routes: Routes = [{
     path: '',
@@ -30,7 +31,8 @@ const routes: Routes = [{
   },
   {
     path:'profile',
-    component:ProfileComponent
+    component:ProfileComponent,
+     canActivate: [LoginGuard]
   }
 ];
 
