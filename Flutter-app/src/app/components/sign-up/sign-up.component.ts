@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { AbstractControl } from '@angular/forms';  
 import { Router } from '@angular/router';
 import {Observer, PartialObserver} from "rxjs";
 import {User} from "../../models/users";

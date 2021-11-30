@@ -15,16 +15,15 @@
 
         <div class="form-to-socials-container">
             <form #signUpForm="ngForm">
-                <input type="email" #emailInput="ngModel" name="userEmail" placeholder="Enter email" ngModel required minlength="6" maxlength="30" [ngClass]="{
-            greenBorder: isValidEmail(emailInput) ,
-            redBorder:  !isValidEmail(emailInput)  && emailInput.touched
-         }">
+                <input type="email" #emailInput="ngModel" name="userEmail" placeholder="Enter email" ngModel required minlength="6" maxlength="30">
+                <div id="validation" *ngIf=" emailInput.invalid  && emailInput.touched">Email doesn't meet the requirements</div>
 
-                <input type="password" name="password" #passwordInput="ngModel" ngModel required placeholder="Enter password">
-                <div *ngIf="passwordInput.invalid && passwordInput.touched">Password doesn't meet the requirements</div>
 
-                <input type="password" name="passwordRepeat" #passwordRepeatInput="ngModel" ngModel required placeholder="Confirm password">
-                <div *ngIf="passwordRepeatInput !== passwordInput && passwordRepeatInput.invalid && passwordRepeatInput.touched ">Passwords do not match</div>
+                <input type="password" name="password" #passwordInput="ngModel" ngModel required minlength="6" maxlength="30" placeholder="Enter password">
+                <div id="validation" *ngIf="passwordInput.invalid && passwordInput.touched">Password doesn't meet the requirements</div>
+
+                <input type="password" name="passwordRepeat" #passwordRepeatInput="ngModel" ngModel required minlength="6" maxlength="30" placeholder="Confirm password">
+                <div id="validation" *ngIf="passwordRepeatInput !== passwordInput && passwordRepeatInput.invalid && passwordRepeatInput.touched ">Passwords do not match</div>
             </form>
 
             <button (click)="signUp(signUpForm)">Sing Up</button>

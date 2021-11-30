@@ -10,13 +10,6 @@ $bordColor: #E2E2E0;
 $bordColor1:#ECECEB;
 $inputBg: #F7F7F7;
 
-.greenBorder {
-  border: 1px solid $bgColor1;
-}
-
-.redBorder {
-  border: 1px solid $Color2
-}
 
 .sign-up {
   display: flex;
@@ -95,6 +88,17 @@ $inputBg: #F7F7F7;
         flex-direction: column;
         align-items: center;
         gap: 1.6rem;
+
+        #validation {
+          color: $Color2;
+          font-family: "Roboto";
+          font-weight: 90rem;
+          font-size: 1.6rem;
+          line-height: 1.875rem;
+          letter-spacing: 0.04rem;
+          text-align: center;
+          margin: 0rem;
+        }
 
         input {
           border: none;
