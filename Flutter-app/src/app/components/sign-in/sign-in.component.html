@@ -1,22 +1,28 @@
-<div class="nav">
-    <h1>Sing In</h1>
-    <div class="reactangles">
-        <img src="../../../assets/Rectangle.png" alt="reactangle">
-        <img src="../../../assets/Rectangle Copy.png" alt="reactangle-copy">
+<div class="sign-in">
+    <div class="container">
+        <div class="nav">
+            <h1>Sing In</h1>
+            <div class="reactangles">
+                <img id="big" src="../../../assets/Rectangle.png" alt="reactangle">
+                <img id="small" src="../../../assets/Rectangle Copy.png" alt="reactangle-copy">
+            </div>
+        </div>
+
+        <img id="sign-in" src="../../../assets/signin.png" alt="sign-in-pencil">
+
+        <div class="form-to-socials-container">
+            <div class="form">
+                <input [(ngModel)]="user.username" placeholder="Username">
+                <input [(ngModel)]="user.password" placeholder="Password" type="password">
+                <a href="#">Forgot your password?</a>
+                <button (click)="login()">Login</button>
+            </div>
+
+            <app-socials></app-socials>
+
+        </div>
+
+        <p id="footer">Don't have an account? <a routerLink="/sign-up">Sign up</a></p>
+
     </div>
 </div>
-
-<img src="../../../assets/signin.png" alt="sign-in-pencil">
-
-<div class="form">
-    <input [(ngModel)]="user.username" placeholder="Username"> <br>
-    <input [(ngModel)]="user.password" placeholder="Password" type="password"> <br>
-    <a href="#">Forgot your password?</a>
-    <button (click)="login()">Login</button>
-</div>
-
-<app-socials></app-socials>
-
-<span>Don't have an account? </span>
-
-<a routerLink="/sign-up">Sign up</a>
