@@ -42,7 +42,10 @@ export class SignInComponent implements OnInit {
   public login(): void {
     this.accessService.login(this.user).subscribe({
       next: (response) => {
-        console.log(response);
+        this.messagesService.postMessage({
+          message: "Welcome!",
+          type: NotificationType.Success
+        });
 
         this.accessService.setToken(response.token);
 

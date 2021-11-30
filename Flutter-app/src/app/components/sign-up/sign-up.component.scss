@@ -49,6 +49,10 @@ $inputBg: #F7F7F7;
         height: 1.623rem;
       }
 
+      .path:hover {
+        cursor: pointer;
+      }
+
       .reactangles {
         display: flex;
         flex-direction: column;

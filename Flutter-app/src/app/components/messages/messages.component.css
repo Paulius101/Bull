@@ -37,3 +37,9 @@
 .message.warning {
   background-color: lightyellow;
 }
+
+@media (max-height: 650px) {
+  :host {
+    top: 30%;
+  }
+}

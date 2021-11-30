@@ -51,6 +51,10 @@
   height: 1.623rem;
 }
 
+.profile .top .nav .path:hover {
+  cursor: pointer;
+}
+
 .profile .top .nav .reactangles {
   display: -webkit-box;
   display: -ms-flexbox;

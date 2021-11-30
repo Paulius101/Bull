@@ -58,6 +58,10 @@
   height: 1.623rem;
 }
 
+.sign-up .container .nav .path:hover {
+  cursor: pointer;
+}
+
 .sign-up .container .nav .reactangles {
   display: -webkit-box;
   display: -ms-flexbox;
