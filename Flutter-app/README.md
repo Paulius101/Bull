@@ -11,3 +11,6 @@
 2. Any kind of State Management was used for input or user states.
 
 ### Result: https://flutterapp-11d03.web.app ###
+1. Socials icons from angular fontawesome.
+2. Notification messages added (to show valid and invalid login/ register attempts)
+3. A bit of responsive design implemented for different viewhight.
