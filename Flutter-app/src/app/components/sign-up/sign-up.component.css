@@ -230,3 +230,32 @@
   color: #FFB19D;
   font-weight: 50rem;
 }
+
+@media (max-width: 374px) {
+  .sign-up .container {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .sign-up .container .nav {
+    margin-bottom: 1.5rem;
+  }
+  .sign-up .container #sign-up {
+    width: 5.5rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  .sign-up .container .form-to-socials-container form input {
+    height: 5rem;
+  }
+  .sign-up .container .form-to-socials-container button {
+    height: 5rem;
+    margin-top: 1.4rem;
+  }
+  .sign-up .container .form-to-socials-container button:hover {
+    cursor: pointer;
+  }
+  .sign-up .container #footer {
+    margin-top: 4rem;
+  }
+}

@@ -224,71 +224,31 @@
   font-weight: 50rem;
 }
 
-/* iPhone 6 in portrait & landscape */
-/* iPhone 6 in landscape */
-/* iPhone 6 in portrait */
-/* iPhone 6 Plus in portrait & landscape */
-/* iPhone 6 Plus in landscape */
-/* iPhone 6 Plus in portrait */
-/* iPhone 5 & 5S in portrait & landscape */
-/* iPhone 5 & 5S in landscape */
-/* iPhone 5 & 5S in portrait */
-/* 
-  iPhone 2G, 3G, 4, 4S Media Queries
-  It's noteworthy that these media queries are also the same for iPod Touch generations 1-4.
-*/
-/* iPhone 2G-4S in portrait & landscape */
-/* iPhone 2G-4S in landscape */
-/* iPhone 2G-4S in portrait */
-/* iPad in portrait & landscape */
-/* iPad in landscape */
-/* iPad in portrait */
-/* Galaxy S3 portrait and landscape */
-/* Galaxy S3 portrait */
-/* Galaxy S3 landscape */
-/* Galaxy S4 portrait and landscape */
-/* Galaxy S4 portrait */
-/* Galaxy S4 landscape */
-/* Galaxy S5 portrait and landscape */
-/* Galaxy S5 portrait */
-/* Galaxy S5 landscape */
-/* HTC One portrait and landscape */
-/* HTC One portrait */
-/* HTC One landscape */
-/*
-  iPad 3 & 4 Media Queries
-  If you're looking to target only 3rd and 4th generation Retina iPads 
-  (or tablets with similar resolution) to add @2x graphics,
-  or other features for the tablet's Retina display, use the following media queries.
-*/
-/* Retina iPad in portrait & landscape */
-/* Retina iPad in landscape */
-/* Retina iPad in portrait */
-/*
-  iPad 1 & 2 Media Queries
-  If you're looking to supply different graphics or choose different typography 
-  for the lower resolution iPad display, the media queries below will work 
-  like a charm in your responsive design!
-*/
-/* iPad 1 & 2 in portrait & landscape */
-/* iPad 1 & 2 in landscape */
-/* iPad 1 & 2 in portrait */
-/* iPad mini in portrait & landscape */
-/* iPad mini in landscape */
-/* iPad mini in portrait */
-/* Galaxy Tab 10.1 portrait and landscape */
-/* Galaxy Tab 10.1 portrait */
-/* Galaxy Tab 10.1 landscape */
-/* Asus Nexus 7 portrait and landscape */
-/* Asus Nexus 7 portrait */
-/* Asus Nexus 7 landscape */
-/* Kindle Fire HD 7" portrait and landscape */
-/* Kindle Fire HD 7" portrait */
-/* Kindle Fire HD 7" landscape */
-/* Kindle Fire HD 8.9" portrait and landscape */
-/* Kindle Fire HD 8.9" portrait */
-/* Kindle Fire HD 8.9" landscape */
-/* Laptops non-retina screens */
-/* Laptops retina screens */
-/* Apple Watch */
-/* Moto 360 Watch */
+@media (max-width: 360px) {
+  .sign-in .container {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .sign-in .container .nav {
+    margin-bottom: 1.5rem;
+  }
+  .sign-in .container #sign-in {
+    width: 5.5rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  .sign-in .container .form-to-socials-container .form input {
+    height: 5rem;
+  }
+  .sign-in .container .form-to-socials-container button {
+    height: 5rem;
+    margin-top: 3.4rem;
+  }
+  .sign-in .container .form-to-socials-container button:hover {
+    cursor: pointer;
+  }
+  .sign-in .container #footer {
+    margin-top: 4rem;
+  }
+}

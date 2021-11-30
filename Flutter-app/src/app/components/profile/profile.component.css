@@ -296,7 +296,7 @@
 
 .profile .bottom .container-info .email .email-img-container img:last-of-type {
   position: absolute;
-  left: 5.6rem;
+  left: 2.6rem;
   width: 2.031rem;
   height: 0.985rem;
 }
@@ -304,4 +304,165 @@
 .profile .bottom .container-info .projects img {
   width: 2.2rem;
   height: 2.2rem;
+}
+
+@media (max-width: 374px) {
+  .profile .top {
+    margin: 3.2rem;
+    margin-top: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    contain: content;
+  }
+  .profile .top .nav {
+    margin-bottom: 10px;
+  }
+  .profile .top .profileArea #usr {
+    color: #525464;
+    font-family: 'Ubuntu';
+    font-weight: 50rem;
+    font-size: 2.4rem;
+    line-height: 2.758rem;
+    letter-spacing: 0.033;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+  }
+  .profile .top .profileArea .Img_Profile {
+    border-radius: 36rem;
+    width: 7.4rem;
+    height: 7.4rem;
+    contain: content;
+  }
+  .profile .top .profileArea .Img_Profile #photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+  .profile .top .profileArea .location p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .profile .top .profileArea .location img {
+    width: 0.536rem;
+    height: 0.5rem;
+  }
+  .profile .top a {
+    margin: 1.5rem;
+  }
+  .profile .top .actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .profile .top .actions button {
+    width: 15rem;
+    height: 4rem;
+    font-weight: 90rem;
+    font-size: 1.6rem;
+    line-height: 1.875rem;
+  }
+  .profile .top .actions button:hover {
+    cursor: pointer;
+  }
+  .profile .bottom {
+    contain: content;
+    background-color: #525464;
+  }
+  .profile .bottom .container-info {
+    contain: content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 1.6rem;
+    margin: 2rem 3rem;
+  }
+  .profile .bottom .container-info .info-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    mix-blend-mode: normal;
+    border: 0.1rem solid rgba(226, 226, 224, 0.3043);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .profile .bottom .container-info .info-block .img {
+    padding: 1.2rem 2.5rem;
+    border-right: 0.1rem solid rgba(236, 236, 235, 0.3);
+  }
+  .profile .bottom .container-info .info {
+    padding: 1.2rem 2.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .profile .bottom .container-info .info p {
+    font-family: 'Roboto';
+    margin: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #FFFFFF;
+    opacity: 0.381;
+    font-weight: 50rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.029rem;
+    mix-blend-mode: normal;
+  }
+  .profile .bottom .container-info .info p:last-of-type {
+    opacity: 1;
+    font-size: 1.6rem;
+    letter-spacing: 0.033rem;
+  }
+  .profile .bottom .container-info .phone img {
+    width: 1.79rem;
+    height: 1.794rem;
+  }
+  .profile .bottom .container-info .email .email-img-container img:first-of-type {
+    position: relative;
+    width: 2.031rem;
+    height: 1.529rem;
+  }
+  .profile .bottom .container-info .email .email-img-container img:last-of-type {
+    position: absolute;
+    left: 2.6rem;
+    width: 2.031rem;
+    height: 0.985rem;
+  }
+  .profile .bottom .container-info .projects img {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
 }

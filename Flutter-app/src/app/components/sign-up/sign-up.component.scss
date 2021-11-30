@@ -159,3 +159,46 @@ $inputBg: #F7F7F7;
     }
   }
 }
+
+@media (max-width:374px) {
+  .sign-up {
+
+    .container {
+      margin-bottom: 0px;
+      margin-top: 10px;
+
+      .nav {
+        margin-bottom: 1.5rem;
+      }
+
+      #sign-up {
+        width: 5.5rem;
+        height: 6.5rem;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+      }
+
+
+      .form-to-socials-container {
+        form {
+          input {
+            height: 5rem;
+          }
+        }
+
+        button {
+          height: 5rem;
+          margin-top: 1.4rem;
+        }
+
+        button:hover {
+          cursor: pointer;
+        }
+      }
+
+      #footer {
+        margin-top: 4rem;
+      }
+    }
+  }
+}
