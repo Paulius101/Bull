@@ -12,3 +12,17 @@
 * Have a search component (to search for a specific room).
 * Try adding a countdown clock.
 * Deploy to firebase.
+
+### Components: ###
+ 
+ * Landing page (contains several others)
+ * Navigation, which has a router link to "rooms", logo and something else.
+ * Available rooms (a carrousel with room photos and an option to view more details about a room).
+ * More details of a specific room.
+ * Cart.
+ * Countdown.
+ * Footer: has social media icons/links, contact details, maybe an integrated map?!
+ * Some type of search (to find rooms).
+ * Profile (when user registers, he should fill in a form and entered details will be displayed here).
+ * Register.
+ * Log in.
