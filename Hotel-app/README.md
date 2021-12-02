@@ -2,7 +2,8 @@
 
 * Design a well looking hotel app.
 * Make it responsive to different viewhights and widths.
-* Implement login/ register logic.
+* Implement login/ register logic with some angular form validation.
+* Successful or failled attempts to login should create notification messages.
 * Use API method to get room options from a pre made server.
 * User should be able to order a room ("add to favorites/ cart").
 * User should have a "profile". 
@@ -26,3 +27,4 @@
  * Profile (when user registers, he should fill in a form and entered details will be displayed here).
  * Register.
  * Log in.
+* Notifications.
