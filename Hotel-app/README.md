@@ -1,5 +1,7 @@
 # HotelApp
 
+### Goals: ###
+
 * Design a well looking hotel app.
 * Make it responsive to different viewhights and widths.
 * Implement login/ register logic with some angular form validation.
