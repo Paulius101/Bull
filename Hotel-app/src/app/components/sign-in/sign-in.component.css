@@ -1,0 +1,283 @@
+.sign-in {
+  position: absolute;
+  contain: content;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 37.5rem;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.sign-in .container {
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sign-in .container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 6.5rem;
+  gap: 35%;
+}
+
+.sign-in .container .nav h1 {
+  color: #525464;
+  font-family: 'Roboto';
+  font-weight: 90rem;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.038rem;
+  text-align: center;
+}
+
+.sign-in .container .nav .path {
+  width: 0.975rem;
+  height: 1.623rem;
+}
+
+.sign-in .container .nav .reactangles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  gap: 0.4rem;
+}
+
+.sign-in .container .nav .reactangles #big {
+  width: 1.8rem;
+  height: 0.2rem;
+}
+
+.sign-in .container .nav .reactangles #small {
+  margin-left: 0.6rem;
+  width: 1.2rem;
+  height: 0.2rem;
+}
+
+.sign-in .container #sign-in {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 10rem;
+  height: 14.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.sign-in .container .form-to-socials-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.6rem;
+}
+
+.sign-in .container .form-to-socials-container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.6rem;
+}
+
+.sign-in .container .form-to-socials-container .form input {
+  border: none;
+  width: 31.5rem;
+  height: 6rem;
+  background-color: #F7F7F7;
+}
+
+.sign-in .container .form-to-socials-container .form ::-webkit-input-placeholder {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  font-family: "Roboto";
+  font-weight: 50rem;
+  font-size: 1.6rem;
+  color: #B0B0C3;
+  line-height: 1.875rem;
+  letter-spacing: 0.04rem;
+  padding: 2.1rem;
+}
+
+.sign-in .container .form-to-socials-container .form :-ms-input-placeholder {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  font-family: "Roboto";
+  font-weight: 50rem;
+  font-size: 1.6rem;
+  color: #B0B0C3;
+  line-height: 1.875rem;
+  letter-spacing: 0.04rem;
+  padding: 2.1rem;
+}
+
+.sign-in .container .form-to-socials-container .form ::-ms-input-placeholder {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  font-family: "Roboto";
+  font-weight: 50rem;
+  font-size: 1.6rem;
+  color: #B0B0C3;
+  line-height: 1.875rem;
+  letter-spacing: 0.04rem;
+  padding: 2.1rem;
+}
+
+.sign-in .container .form-to-socials-container .form ::placeholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: "Roboto";
+  font-weight: 50rem;
+  font-size: 1.6rem;
+  color: #B0B0C3;
+  line-height: 1.875rem;
+  letter-spacing: 0.04rem;
+  padding: 2.1rem;
+}
+
+.sign-in .container .form-to-socials-container .form a {
+  color: #838391;
+  font-family: "Roboto";
+  font-weight: 90rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.033rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.sign-in .container .form-to-socials-container button {
+  color: #FFFFFF;
+  font-weight: 90rem;
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.04rem;
+  text-align: center;
+  border: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-color: #20C3AF;
+  width: 31.5rem;
+  height: 6rem;
+  margin-top: 3.4rem;
+}
+
+.sign-in .container .form-to-socials-container button:hover {
+  cursor: pointer;
+}
+
+.sign-in .container #footer {
+  color: #838391;
+  font-weight: 90rem;
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.033rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.sign-in .container #footer a {
+  margin-left: 0.5rem;
+  color: #FFB19D;
+  font-weight: 50rem;
+}
+
+@media (max-height: 811px) {
+  .sign-in .container {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .sign-in .container .nav {
+    margin-bottom: 1.5rem;
+  }
+  .sign-in .container #sign-in {
+    width: 5.5rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  .sign-in .container .form-to-socials-container .form input {
+    height: 5rem;
+  }
+  .sign-in .container .form-to-socials-container button {
+    height: 5rem;
+    margin-top: 3.4rem;
+  }
+  .sign-in .container .form-to-socials-container button:hover {
+    cursor: pointer;
+  }
+  .sign-in .container #footer {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-height: 650px) {
+  .sign-in .container {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .sign-in .container .nav {
+    margin-bottom: 1.5rem;
+  }
+  .sign-in .container #sign-in {
+    width: 5.5rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  .sign-in .container .form-to-socials-container .form input {
+    height: 4rem;
+  }
+  .sign-in .container .form-to-socials-container button {
+    height: 4rem;
+    margin-top: 0rem;
+  }
+  .sign-in .container .form-to-socials-container button:hover {
+    cursor: pointer;
+  }
+  .sign-in .container #footer {
+    margin-top: 4rem;
+  }
+}

@@ -1,0 +1,29 @@
+.intro {
+  background: black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 37.5rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(110%);
+  display: inline-block;
+}
