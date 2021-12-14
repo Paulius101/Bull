@@ -1,0 +1,13 @@
+<div class="personal-tab">
+    <ng-container *ngFor="let card of this.plans">
+        <div class="card" *ngIf="this.plansService.highestPrice(plans) === card.id" [class.highestPrice]="true">
+            <h1>BEST OFFER</h1>
+            <app-plan-card [plan]="card"></app-plan-card>
+        </div>
+
+        <div class="card" *ngIf="this.plansService.highestPrice(plans) !== card.id">
+            <app-plan-card [plan]="card"></app-plan-card>
+        </div>
+    </ng-container>
+
+</div>
