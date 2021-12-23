@@ -9,6 +9,8 @@ import { PersonalTabComponent } from './components/personal-tab/personal-tab.com
 import { EnterpriseTabComponent } from './components/enterprise-tab/enterprise-tab.component';
 import { PlanCardComponent } from './components/plan-card/plan-card.component';
 import { AvailablePlansComponent } from './components/available-plans/available-plans.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { AvailablePlansComponent } from './components/available-plans/available-
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

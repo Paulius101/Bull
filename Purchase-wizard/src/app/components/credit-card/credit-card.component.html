@@ -1,1 +1,22 @@
-<h1>Hello</h1>
+<button routerLink="/">Return to plan selection</button>
+
+<label for="firstName">First name </label>
+<input id="firstName" type="text" [formControl]="firstName">
+<p>Value: {{firstName.value}}</p>
+<!-- 
+<form #stockUpdateForm="ngForm">
+    <input type="number" id="stockPrice" placeholder="Price" name="stockPrice" ngModel min="1" required #stockPriceInput="ngModel">
+    <div *ngIf="stockPriceInput.invalid && stockPriceInput.touched">Stock price undefined</div>
+    <br>
+
+    <input #stockExchangeInput="ngModel" name="stockExchange" placeholder="Stock exchange" ngModel required minlength="3" [ngClass]="{
+                    greenBorder: stockExchangeInput.valid,
+                    redBorder: stockExchangeInput.invalid && stockExchangeInput.touched
+                 }">
+    <br>
+    <select #stockFavoriteInput="ngModel" name="stockFavorite" placeholder="Watched?" ngModel required>
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </select>
+    <button (click)="updateStock(stockUpdateForm)">Update stock info</button>
+</form> -->
