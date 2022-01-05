@@ -1,0 +1,97 @@
+.hero {
+  display: inline-block;
+  height: 100vh;
+  background-image: url("../../../assets/gabriel ghnassia A9h6OsAxTyQ unsplash.png");
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #000000;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.hero .background-rec {
+  background: rgba(20, 39, 74, 0.5);
+  height: inherit;
+  width: inherit;
+}
+
+.hero .background-rec .group-34 {
+  width: 80vw;
+  height: 95vh;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hero .background-rec .group-34 .group-31 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.hero .background-rec .group-34 .group-31 #firsth1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 61px;
+}
+
+.hero .background-rec .group-34 .group-31 #firsth2 {
+  font-family: "Cormorant+Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 160px;
+  letter-spacing: 0.07em;
+}
+
+.hero .background-rec .group-34 .group-31 #firsth3 {
+  font-family: "Cormorant+Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.4em;
+}
+
+.hero .background-rec .group-34 .group-31 p {
+  width: 75%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-transform: none;
+  margin-top: 2%;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
