@@ -47,7 +47,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
-  letter-spacing: 15%;
+  letter-spacing: 0.15em;
 }
 
 .group-33 .group-2 p:last-of-type {
@@ -56,7 +56,7 @@
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
-  letter-spacing: 60%;
+  letter-spacing: 0.6em;
 }
 
 .group-33 .group-32 {
