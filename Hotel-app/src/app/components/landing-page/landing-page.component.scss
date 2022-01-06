@@ -288,20 +288,44 @@
       }
 
       .right {
-        display: flex;
+        display: inline-block;
         width: 55%;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
+        position: relative;
+        box-sizing: border-box;
 
-
-        #luxRoom {
-          width: 55vw;
-          height: 40vh;
+        .overlay {
+          position: absolute;
+          bottom: 0;
+          background: rgb(0, 0, 0);
+          background: rgba(0, 0, 0, 0.5);
+          color: #f1f1f1;
+          width: 100%;
+          transition: .5s ease;
+          opacity: 0;
+          color: white;
+          font-size: 20px;
+          padding: 20px;
+          text-align: center;
+          box-sizing: border-box;
         }
 
-        #beach {
+        .image {
           width: 55vw;
           height: 40vh;
+          box-sizing: border-box;
         }
+
+        .image:hover {
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+
+      }
+
+      .right:hover .overlay {
+        opacity: 1;
+        cursor: pointer;
       }
 
       div {

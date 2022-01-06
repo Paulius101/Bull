@@ -7,6 +7,7 @@ import { OpeningEffectComponent } from './components/opening-effect/opening-effe
 import { HeaderComponent } from './components/header/header.component';
 import { RoomComponent } from './components/room/room.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
     OpeningEffectComponent,
     HeaderComponent,
     RoomComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,62 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #14274A;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    height: 20vh;
+    background-color: #14274A;
+    color: #ffff;
+
+
+
+    .contacts {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .media {
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .links {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+    }
+
+    .newsletter {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .newsletter {
+      display: flex;
+      flex-direction: column;
+
+      .email {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+}
