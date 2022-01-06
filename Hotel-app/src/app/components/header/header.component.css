@@ -42,7 +42,6 @@
 }
 
 .group-33 .group-2 p:first-of-type {
-  font-family: 'Cormorant+Garamond';
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
@@ -51,7 +50,6 @@
 }
 
 .group-33 .group-2 p:last-of-type {
-  font-family: 'Montserrat';
   text-transform: uppercase;
   font-weight: 700;
   font-size: 15px;
@@ -74,7 +72,6 @@
 
 .group-33 .group-32 a {
   text-decoration: none;
-  font-family: "Montserrat";
   font-weight: 400;
   font-size: 25px;
   line-height: 30.48px;
