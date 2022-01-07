@@ -252,12 +252,14 @@
       -ms-flex-pack: center;
           justify-content: center;
   font-style: normal;
+  margin-top: 10px;
 }
 
 .main-container .container #breakfastInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 20px;
   color: #14274A;
   font-weight: 400;
   font-size: 36px;
@@ -270,7 +272,7 @@
 }
 
 .main-container .container #group-29 {
-  height: 45vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,7 +371,7 @@
 
 .main-container .container #group-29 .right .image {
   width: 55vw;
-  height: 40vh;
+  height: 330px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -482,40 +484,56 @@
 
 @media (max-width: 1600px) {
   .main-container .hero {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     margin-bottom: 10px;
   }
   .main-container .hero .background-rec .group-34 .group-31 #firsth1 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 40px;
     line-height: 51px;
   }
   .main-container .hero .background-rec .group-34 .group-31 #firsth2 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 100px;
     line-height: 120px;
     letter-spacing: 0.05em;
   }
   .main-container .hero .background-rec .group-34 .group-31 #firsth3 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 40px;
     line-height: 62px;
     letter-spacing: 0.4em;
   }
   .main-container .hero .background-rec .group-34 .group-31 p {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 75%;
     font-size: 22px;
     line-height: 27px;
     margin-top: 2%;
   }
   .main-container .hero .background-rec .group-34 .book-now {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 220px;
     font-size: 22px;
     line-height: 27px;
     padding: 15px 23px;
   }
   .main-container .hero .background-rec .group-34 .scroll {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 60px;
     height: 87px;
     gap: 10%;
   }
   .main-container .hero .background-rec .group-34 .scroll p {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -523,21 +541,29 @@
     letter-spacing: 0.05em;
   }
   .main-container .hero .background-rec .group-34 .scroll .mouse {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 34px;
     height: 55px;
   }
   .main-container .container #breakfastInfo {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 30px;
     line-height: 38px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
   .main-container .container #group-29 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     height: 45vh;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
   .main-container .container #group-29 .left {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 40%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -546,15 +572,21 @@
     padding-right: 2%;
   }
   .main-container .container #group-29 .left h2 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 40px;
     line-height: 40px;
   }
   .main-container .container #group-29 .left p {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
   }
   .main-container .container #group-29 .left button {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 170px;
     height: 43px;
     padding: 15px 23px;
@@ -563,24 +595,34 @@
     letter-spacing: 0.05em;
   }
   .main-container .container #group-29 .right {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 55%;
   }
   .main-container .container #group-29 .right .overlay {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 20px;
     padding: 20px;
   }
   .main-container .container #group-29 .right .image {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 55vw;
     height: 40vh;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
   .main-container .testimonials h2 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 45px;
     line-height: 72px;
     margin-bottom: 4vh;
   }
   .main-container .testimonials .first {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -589,6 +631,8 @@
     text-align: center;
   }
   .main-container .testimonials .second {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 20px;
     line-height: 25px;
     -ms-flex-wrap: wrap;
@@ -596,10 +640,14 @@
     text-align: center;
   }
   .main-container .testimonials .arrows {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     gap: 21px;
     margin-bottom: 10vh;
   }
   .main-container .testimonials .arrows .arrow {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 24px;
     padding: 10px 15px;
   }
@@ -607,6 +655,8 @@
 
 @media (max-width: 975px) {
   .main-container .hero .background-rec .group-34 .group-31 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -621,37 +671,51 @@
     text-align: center;
   }
   .main-container .hero .background-rec .group-34 .group-31 #firsth1 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 35px;
     line-height: 51px;
   }
   .main-container .hero .background-rec .group-34 .group-31 #firsth2 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 100px;
     line-height: 100px;
     letter-spacing: 0.05em;
   }
   .main-container .hero .background-rec .group-34 .group-31 #firsth3 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 35px;
     line-height: 51px;
     letter-spacing: 0.4em;
   }
   .main-container .hero .background-rec .group-34 .group-31 p {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 75%;
     font-size: 22px;
     line-height: 24px;
     margin-top: 10%;
   }
   .main-container .hero .background-rec .group-34 .book-now {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 220px;
     font-size: 22px;
     line-height: 27px;
     padding: 15px 23px;
   }
   .main-container .hero .background-rec .group-34 .scroll {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 60px;
     height: 87px;
     gap: 10%;
   }
   .main-container .hero .background-rec .group-34 .scroll p {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -659,10 +723,14 @@
     letter-spacing: 0.05em;
   }
   .main-container .hero .background-rec .group-34 .scroll .mouse {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 34px;
     height: 55px;
   }
   .main-container .container #breakfastInfo {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 26px;
     line-height: 38px;
     -ms-flex-wrap: wrap;
@@ -670,11 +738,15 @@
     text-align: center;
   }
   .main-container .container #group-29 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     height: 45vh;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
   .main-container .container #group-29 .left {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 40%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -683,15 +755,21 @@
     padding-right: 2%;
   }
   .main-container .container #group-29 .left h2 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 40px;
     line-height: 40px;
   }
   .main-container .container #group-29 .left p {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
   }
   .main-container .container #group-29 .left button {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 170px;
     height: 43px;
     padding: 15px 23px;
@@ -700,44 +778,62 @@
     letter-spacing: 0.05em;
   }
   .main-container .container #group-29 .right {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 55%;
   }
   .main-container .container #group-29 .right .overlay {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 20px;
     padding: 20px;
   }
   .main-container .container #group-29 .right .image {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 55vw;
     height: 40vh;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
   .main-container .testimonials {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     text-align: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-top: 8vh;
   }
   .main-container .testimonials h2 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 40px;
     line-height: 72px;
     margin-bottom: 4vh;
   }
   .main-container .testimonials .first {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 24px;
     line-height: 34px;
     margin-bottom: 2vh;
   }
   .main-container .testimonials .second {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 19px;
     line-height: 25px;
     margin-bottom: 2vh;
   }
   .main-container .testimonials .arrows {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     gap: 21px;
     margin-bottom: 10vh;
   }
   .main-container .testimonials .arrows .arrow {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 24px;
     padding: 10px 15px;
   }
@@ -745,6 +841,8 @@
 
 @media (max-width: 832px) {
   .main-container .hero .background-rec .group-34 .group-31 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -759,37 +857,51 @@
     text-align: center;
   }
   .main-container .hero .background-rec .group-34 .group-31 #firsth1 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 35px;
     line-height: 51px;
   }
   .main-container .hero .background-rec .group-34 .group-31 #firsth2 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 100px;
     line-height: 100px;
     letter-spacing: 0.05em;
   }
   .main-container .hero .background-rec .group-34 .group-31 #firsth3 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 35px;
     line-height: 51px;
     letter-spacing: 0.4em;
   }
   .main-container .hero .background-rec .group-34 .group-31 p {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 75%;
     font-size: 22px;
     line-height: 24px;
     margin-top: 10%;
   }
   .main-container .hero .background-rec .group-34 .book-now {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 220px;
     font-size: 22px;
     line-height: 27px;
     padding: 15px 23px;
   }
   .main-container .hero .background-rec .group-34 .scroll {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 60px;
     height: 87px;
     gap: 10%;
   }
   .main-container .hero .background-rec .group-34 .scroll p {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -797,14 +909,20 @@
     letter-spacing: 0.05em;
   }
   .main-container .hero .background-rec .group-34 .scroll .mouse {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 34px;
     height: 55px;
   }
   .main-container .container {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     gap: 30px;
     height: auto;
   }
   .main-container .container #breakfastInfo {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 26px;
     line-height: 38px;
     -ms-flex-wrap: wrap;
@@ -813,6 +931,8 @@
     margin-bottom: 30px;
   }
   .main-container .container #group-29 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     height: auto;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -822,6 +942,8 @@
     text-align: center;
   }
   .main-container .container #group-29 .left {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 100%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -831,16 +953,22 @@
     margin-bottom: 4vh;
   }
   .main-container .container #group-29 .left h2 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
   }
   .main-container .container #group-29 .left p {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
   }
   .main-container .container #group-29 .left button {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 170px;
     height: 43px;
     padding: 15px 23px;
@@ -852,19 +980,27 @@
         align-self: center;
   }
   .main-container .container #group-29 .right {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 100%;
   }
   .main-container .container #group-29 .right .overlay {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 20px;
     padding: 20px;
   }
   .main-container .container #group-29 .right .image {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     width: 100%;
     height: auto;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
   .main-container .testimonials {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     height: auto;
     width: 95vw;
     text-align: center;
@@ -874,25 +1010,36 @@
     overflow: hidden;
   }
   .main-container .testimonials h2 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 20px;
   }
   .main-container .testimonials .first {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 24px;
     line-height: 34px;
     margin-bottom: 2vh;
   }
   .main-container .testimonials .second {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 19px;
     line-height: 25px;
     margin-bottom: 2vh;
   }
   .main-container .testimonials .arrows {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     gap: 21px;
     margin-bottom: 10vh;
   }
   .main-container .testimonials .arrows .arrow {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 24px;
     padding: 10px 15px;
   }
@@ -900,18 +1047,26 @@
 
 @media (max-width: 531px) {
   .group-31 #firsth1 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 30px;
     line-height: 46px;
   }
   .group-31 #firsth2 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 70px;
     line-height: 80px;
   }
   .group-31 #firsth3 {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     font-size: 30px;
     line-height: 46px;
   }
   .group-31 p {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     display: none;
   }
 }

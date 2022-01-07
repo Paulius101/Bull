@@ -207,10 +207,12 @@
     align-items: center;
     justify-content: center;
     font-style: normal;
+    margin-top: 10px;
+
 
     #breakfastInfo {
       display: flex;
-      // margin-top: 7vh;
+      margin-bottom: 20px;
       color: #14274A;
       font-weight: 400;
       font-size: 36px;
@@ -220,7 +222,7 @@
     }
 
     #group-29 {
-      height: 45vh;
+      height: auto;
       display: flex;
       align-items: center;
       // flex-wrap: wrap;
@@ -302,7 +304,7 @@
 
         .image {
           width: 55vw;
-          height: 40vh;
+          height: 330px;
           box-sizing: border-box;
         }
 
@@ -403,8 +405,10 @@
 
 
 @media (max-width: 1600px) {
+
   .main-container {
     .hero {
+      transition: all 0.5s linear;
       margin-bottom: 10px;
 
       .background-rec {
@@ -416,12 +420,14 @@
 
 
             #firsth1 {
+              transition: all 0.5s linear;
               font-size: 40px;
               line-height: 51px;
 
             }
 
             #firsth2 {
+              transition: all 0.5s linear;
               font-size: 100px;
               line-height: 120px;
               letter-spacing: 0.05em;
@@ -429,12 +435,14 @@
             }
 
             #firsth3 {
+              transition: all 0.5s linear;
               font-size: 40px;
               line-height: 62px;
               letter-spacing: 0.4em;
             }
 
             p {
+              transition: all 0.5s linear;
               width: 75%;
               font-size: 22px;
               line-height: 27px;
@@ -443,6 +451,7 @@
           }
 
           .book-now {
+            transition: all 0.5s linear;
             width: 220px;
             font-size: 22px;
             line-height: 27px;
@@ -450,11 +459,13 @@
           }
 
           .scroll {
+            transition: all 0.5s linear;
             width: 60px;
             height: 87px;
             gap: 10%;
 
             p {
+              transition: all 0.5s linear;
               font-style: normal;
               font-weight: 700;
               font-size: 22px;
@@ -465,6 +476,7 @@
 
 
             .mouse {
+              transition: all 0.5s linear;
               width: 34px;
               height: 55px;
             }
@@ -476,17 +488,20 @@
     .container {
 
       #breakfastInfo {
+        transition: all 0.5s linear;
         font-size: 30px;
         line-height: 38px;
         flex-wrap: wrap;
       }
 
       #group-29 {
+        transition: all 0.5s linear;
         height: 45vh;
         flex-wrap: wrap;
 
 
         .left {
+          transition: all 0.5s linear;
           width: 40%;
           flex-wrap: wrap;
           gap: 12px;
@@ -495,17 +510,20 @@
 
 
           h2 {
+            transition: all 0.5s linear;
             font-size: 40px;
             line-height: 40px;
           }
 
           p {
+            transition: all 0.5s linear;
             font-weight: 400;
             font-size: 20px;
             line-height: 30px;
           }
 
           button {
+            transition: all 0.5s linear;
             width: 170px;
             height: 43px;
             padding: 15px 23px;
@@ -516,14 +534,17 @@
         }
 
         .right {
+          transition: all 0.5s linear;
           width: 55%;
 
           .overlay {
+            transition: all 0.5s linear;
             font-size: 20px;
             padding: 20px;
           }
 
           .image {
+            transition: all 0.5s linear;
             width: 55vw;
             height: 40vh;
             box-sizing: border-box;
@@ -537,12 +558,14 @@
     .testimonials {
 
       h2 {
+        transition: all 0.5s linear;
         font-size: 45px;
         line-height: 72px;
         margin-bottom: 4vh;
       }
 
       .first {
+        transition: all 0.5s linear;
         display: flex;
         font-size: 25px;
         line-height: 34px;
@@ -550,6 +573,7 @@
       }
 
       .second {
+        transition: all 0.5s linear;
         font-size: 20px;
         line-height: 25px;
         flex-wrap: wrap;
@@ -557,11 +581,13 @@
       }
 
       .arrows {
+        transition: all 0.5s linear;
         gap: 21px;
         margin-bottom: 10vh;
 
 
         .arrow {
+          transition: all 0.5s linear;
           font-size: 24px;
           padding: 10px 15px;
         }
@@ -578,6 +604,7 @@
 
 
           .group-31 {
+            transition: all 0.5s linear;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -585,12 +612,14 @@
             text-align: center;
 
             #firsth1 {
+              transition: all 0.5s linear;
               font-size: 35px;
               line-height: 51px;
 
             }
 
             #firsth2 {
+              transition: all 0.5s linear;
               font-size: 100px;
               line-height: 100px;
               letter-spacing: 0.05em;
@@ -598,12 +627,14 @@
             }
 
             #firsth3 {
+              transition: all 0.5s linear;
               font-size: 35px;
               line-height: 51px;
               letter-spacing: 0.4em;
             }
 
             p {
+              transition: all 0.5s linear;
               width: 75%;
               font-size: 22px;
               line-height: 24px;
@@ -612,6 +643,7 @@
           }
 
           .book-now {
+            transition: all 0.5s linear;
             width: 220px;
             font-size: 22px;
             line-height: 27px;
@@ -619,11 +651,13 @@
           }
 
           .scroll {
+            transition: all 0.5s linear;
             width: 60px;
             height: 87px;
             gap: 10%;
 
             p {
+              transition: all 0.5s linear;
               font-style: normal;
               font-weight: 700;
               font-size: 22px;
@@ -634,6 +668,7 @@
 
 
             .mouse {
+              transition: all 0.5s linear;
               width: 34px;
               height: 55px;
             }
@@ -645,6 +680,7 @@
     .container {
 
       #breakfastInfo {
+        transition: all 0.5s linear;
         font-size: 26px;
         line-height: 38px;
         flex-wrap: wrap;
@@ -652,11 +688,13 @@
       }
 
       #group-29 {
+        transition: all 0.5s linear;
         height: 45vh;
         flex-wrap: wrap;
 
 
         .left {
+          transition: all 0.5s linear;
           width: 40%;
           flex-wrap: wrap;
           gap: 12px;
@@ -665,17 +703,20 @@
 
 
           h2 {
+            transition: all 0.5s linear;
             font-size: 40px;
             line-height: 40px;
           }
 
           p {
+            transition: all 0.5s linear;
             font-weight: 400;
             font-size: 20px;
             line-height: 30px;
           }
 
           button {
+            transition: all 0.5s linear;
             width: 170px;
             height: 43px;
             padding: 15px 23px;
@@ -686,14 +727,17 @@
         }
 
         .right {
+          transition: all 0.5s linear;
           width: 55%;
 
           .overlay {
+            transition: all 0.5s linear;
             font-size: 20px;
             padding: 20px;
           }
 
           .image {
+            transition: all 0.5s linear;
             width: 55vw;
             height: 40vh;
             box-sizing: border-box;
@@ -704,17 +748,20 @@
     }
 
     .testimonials {
+      transition: all 0.5s linear;
       text-align: center;
       flex-wrap: wrap;
       margin-top: 8vh;
 
       h2 {
+        transition: all 0.5s linear;
         font-size: 40px;
         line-height: 72px;
         margin-bottom: 4vh;
       }
 
       .first {
+        transition: all 0.5s linear;
         font-size: 24px;
         line-height: 34px;
 
@@ -723,6 +770,7 @@
       }
 
       .second {
+        transition: all 0.5s linear;
         font-size: 19px;
         line-height: 25px;
         margin-bottom: 2vh;
@@ -730,11 +778,13 @@
       }
 
       .arrows {
+        transition: all 0.5s linear;
         gap: 21px;
         margin-bottom: 10vh;
 
 
         .arrow {
+          transition: all 0.5s linear;
           font-size: 24px;
           padding: 10px 15px;
         }
@@ -751,6 +801,7 @@
 
 
           .group-31 {
+            transition: all 0.5s linear;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -758,12 +809,14 @@
             text-align: center;
 
             #firsth1 {
+              transition: all 0.5s linear;
               font-size: 35px;
               line-height: 51px;
 
             }
 
             #firsth2 {
+              transition: all 0.5s linear;
               font-size: 100px;
               line-height: 100px;
               letter-spacing: 0.05em;
@@ -771,12 +824,14 @@
             }
 
             #firsth3 {
+              transition: all 0.5s linear;
               font-size: 35px;
               line-height: 51px;
               letter-spacing: 0.4em;
             }
 
             p {
+              transition: all 0.5s linear;
               width: 75%;
               font-size: 22px;
               line-height: 24px;
@@ -785,6 +840,7 @@
           }
 
           .book-now {
+            transition: all 0.5s linear;
             width: 220px;
             font-size: 22px;
             line-height: 27px;
@@ -792,11 +848,13 @@
           }
 
           .scroll {
+            transition: all 0.5s linear;
             width: 60px;
             height: 87px;
             gap: 10%;
 
             p {
+              transition: all 0.5s linear;
               font-style: normal;
               font-weight: 700;
               font-size: 22px;
@@ -807,6 +865,7 @@
 
 
             .mouse {
+              transition: all 0.5s linear;
               width: 34px;
               height: 55px;
             }
@@ -816,10 +875,12 @@
     }
 
     .container {
+      transition: all 0.5s linear;
       gap: 30px;
       height: auto;
 
       #breakfastInfo {
+        transition: all 0.5s linear;
         font-size: 26px;
         line-height: 38px;
         flex-wrap: wrap;
@@ -828,12 +889,14 @@
       }
 
       #group-29 {
+        transition: all 0.5s linear;
         height: auto;
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
 
         .left {
+          transition: all 0.5s linear;
           width: 100%;
           flex-wrap: wrap;
           gap: 12px;
@@ -843,18 +906,21 @@
 
 
           h2 {
+            transition: all 0.5s linear;
             font-size: 40px;
             line-height: 40px;
             text-align: center;
           }
 
           p {
+            transition: all 0.5s linear;
             font-weight: 400;
             font-size: 20px;
             line-height: 30px;
           }
 
           button {
+            transition: all 0.5s linear;
             width: 170px;
             height: 43px;
             padding: 15px 23px;
@@ -866,14 +932,17 @@
         }
 
         .right {
+          transition: all 0.5s linear;
           width: 100%;
 
           .overlay {
+            transition: all 0.5s linear;
             font-size: 20px;
             padding: 20px;
           }
 
           .image {
+            transition: all 0.5s linear;
             width: 100%;
             height: auto;
             box-sizing: border-box;
@@ -883,6 +952,7 @@
     }
 
     .testimonials {
+      transition: all 0.5s linear;
       height: auto;
       width: 95vw;
       text-align: center;
@@ -893,12 +963,14 @@
 
 
       h2 {
+        transition: all 0.5s linear;
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 20px;
       }
 
       .first {
+        transition: all 0.5s linear;
         font-size: 24px;
         line-height: 34px;
 
@@ -907,6 +979,7 @@
       }
 
       .second {
+        transition: all 0.5s linear;
         font-size: 19px;
         line-height: 25px;
         margin-bottom: 2vh;
@@ -914,11 +987,14 @@
       }
 
       .arrows {
+        transition: all 0.5s linear;
         gap: 21px;
         margin-bottom: 10vh;
 
 
         .arrow {
+          transition: all 0.5s linear;
+          transition: all 0.5s linear;
           font-size: 24px;
           padding: 10px 15px;
         }
@@ -931,21 +1007,25 @@
 
   .group-31 {
     #firsth1 {
+      transition: all 0.5s linear;
       font-size: 30px;
       line-height: 46px;
     }
 
     #firsth2 {
+      transition: all 0.5s linear;
       font-size: 70px;
       line-height: 80px;
     }
 
     #firsth3 {
+      transition: all 0.5s linear;
       font-size: 30px;
       line-height: 46px;
     }
 
     p {
+      transition: all 0.5s linear;
       display: none;
     }
   }
