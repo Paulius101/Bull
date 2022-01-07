@@ -22,7 +22,7 @@
     .container-content {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       position: absolute;
       top: 50%;
@@ -34,14 +34,15 @@
       .contacts {
         display: flex;
         flex-direction: column;
-        flex-grow: 1;
-        gap: 10px;
+        // flex-grow: 1;
 
 
         .title {
           display: flex;
           flex-direction: column;
           gap: 5px;
+          margin-bottom: 15px;
+
 
           .fontStyle1 {
             font-weight: bold;
@@ -63,6 +64,7 @@
           font-weight: normal;
           font-size: 14px;
           line-height: 17px;
+
         }
       }
 
@@ -71,7 +73,8 @@
       .links {
         display: flex;
         flex-direction: column;
-        flex-grow: 1;
+        gap: 10px;
+        // flex-grow: 1;
         font-size: 16px;
         line-height: 20px;
         color: #F7F7F7;
@@ -86,18 +89,20 @@
       .media {
         display: flex;
         flex-direction: column;
-        flex-grow: 1;
-
+        // flex-grow: 1;
+        align-items: center;
 
         .social {
           display: flex;
           flex-direction: row;
           align-items: center;
+          gap: 10%;
 
-          p {
+          a {
             font-size: 16px;
             line-height: 31px;
             color: #F7F7F7;
+            text-decoration: none;
           }
         }
       }

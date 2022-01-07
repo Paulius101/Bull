@@ -2,14 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import {
   gsap
 } from 'gsap';
-
+import {faAngleLeft, faAngleRight  } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.component.html',
   styleUrls: ['./landing-page.component.scss']
 })
 export class LandingPageComponent implements OnInit {
-
+faAngleLeft = faAngleLeft;
+faAngleRight = faAngleRight
   constructor() { }
 
   ngOnInit(): void {
@@ -18,7 +19,7 @@ export class LandingPageComponent implements OnInit {
         ease: "power1.out"
       }
     });
-    listAnim.fromTo(".hero", {
+    listAnim.fromTo(".main-container", {
       opacity: 0
     }, {
       opacity: 1,
