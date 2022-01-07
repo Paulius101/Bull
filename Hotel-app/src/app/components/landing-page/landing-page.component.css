@@ -69,16 +69,12 @@
 }
 
 .main-container .hero .background-rec .group-34 .group-31 #firsth1 {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: normal;
   font-size: 50px;
   line-height: 61px;
 }
 
 .main-container .hero .background-rec .group-34 .group-31 #firsth2 {
-  font-family: "Cormorant+Garamond";
-  font-style: normal;
   font-weight: 700;
   font-size: 140px;
   line-height: 160px;
@@ -86,8 +82,6 @@
 }
 
 .main-container .hero .background-rec .group-34 .group-31 #firsth3 {
-  font-family: "Cormorant+Garamond";
-  font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 72px;
@@ -96,7 +90,6 @@
 
 .main-container .hero .background-rec .group-34 .group-31 p {
   width: 75%;
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -131,7 +124,6 @@
   border-radius: 4px;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -175,7 +167,6 @@
 }
 
 .main-container .hero .background-rec .group-34 .scroll p {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -245,7 +236,7 @@
 .main-container .container {
   overflow-y: scroll;
   overflow: hidden;
-  height: 100vh;
+  height: auto;
   width: 80vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,7 +259,6 @@
   display: -ms-flexbox;
   display: flex;
   color: #14274A;
-  font-family: "Montserrat";
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
@@ -287,8 +277,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .main-container .container #group-29 .left {
@@ -300,11 +288,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   gap: 15px;
   padding-left: 5%;
   position: relative;
+  padding-right: 2%;
 }
 
 .main-container .container #group-29 .left h2 {
@@ -317,7 +304,6 @@
 }
 
 .main-container .container #group-29 .left p {
-  font-family: "Montserrat";
   font-weight: 400;
   font-size: 22px;
   line-height: 40px;
@@ -409,7 +395,7 @@
   left: 0%;
 }
 
-.main-container .testimonials {
+.testimonials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -420,33 +406,52 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 10vh;
+  margin-top: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80vw;
 }
 
-.main-container .testimonials h2 {
+.testimonials h2 {
   text-transform: capitalize;
   font-weight: bold;
   font-size: 60px;
   line-height: 72px;
   color: #14274A;
   margin-bottom: 4vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
 }
 
-.main-container .testimonials .first {
+.testimonials .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
   font-size: 30px;
   line-height: 37px;
   color: #14274A;
   margin-bottom: 2vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.main-container .testimonials .second {
+.testimonials .second {
   font-size: 25px;
   line-height: 30px;
   color: #14274A;
   margin-bottom: 2vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
 }
 
-.main-container .testimonials .arrows {
+.testimonials .arrows {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -459,7 +464,7 @@
   margin-bottom: 10vh;
 }
 
-.main-container .testimonials .arrows .arrow {
+.testimonials .arrows .arrow {
   font-size: 24px;
   padding: 10px 15px;
   color: white;
@@ -470,7 +475,443 @@
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.main-container .testimonials .arrows .arrow:hover {
+.testimonials .arrows .arrow:hover {
   cursor: pointer;
   background-color: #e9c178;
+}
+
+@media (max-width: 1600px) {
+  .main-container .hero {
+    margin-bottom: 10px;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 #firsth1 {
+    font-size: 40px;
+    line-height: 51px;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 #firsth2 {
+    font-size: 100px;
+    line-height: 120px;
+    letter-spacing: 0.05em;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 #firsth3 {
+    font-size: 40px;
+    line-height: 62px;
+    letter-spacing: 0.4em;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 p {
+    width: 75%;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 2%;
+  }
+  .main-container .hero .background-rec .group-34 .book-now {
+    width: 220px;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 15px 23px;
+  }
+  .main-container .hero .background-rec .group-34 .scroll {
+    width: 60px;
+    height: 87px;
+    gap: 10%;
+  }
+  .main-container .hero .background-rec .group-34 .scroll p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+  }
+  .main-container .hero .background-rec .group-34 .scroll .mouse {
+    width: 34px;
+    height: 55px;
+  }
+  .main-container .container #breakfastInfo {
+    font-size: 30px;
+    line-height: 38px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-container .container #group-29 {
+    height: 45vh;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-container .container #group-29 .left {
+    width: 40%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 12px;
+    padding-left: 3%;
+    padding-right: 2%;
+  }
+  .main-container .container #group-29 .left h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .main-container .container #group-29 .left p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .main-container .container #group-29 .left button {
+    width: 170px;
+    height: 43px;
+    padding: 15px 23px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+  }
+  .main-container .container #group-29 .right {
+    width: 55%;
+  }
+  .main-container .container #group-29 .right .overlay {
+    font-size: 20px;
+    padding: 20px;
+  }
+  .main-container .container #group-29 .right .image {
+    width: 55vw;
+    height: 40vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .main-container .testimonials h2 {
+    font-size: 45px;
+    line-height: 72px;
+    margin-bottom: 4vh;
+  }
+  .main-container .testimonials .first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .main-container .testimonials .second {
+    font-size: 20px;
+    line-height: 25px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  .main-container .testimonials .arrows {
+    gap: 21px;
+    margin-bottom: 10vh;
+  }
+  .main-container .testimonials .arrows .arrow {
+    font-size: 24px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 975px) {
+  .main-container .hero .background-rec .group-34 .group-31 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    left: 25%;
+    text-align: center;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 #firsth1 {
+    font-size: 35px;
+    line-height: 51px;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 #firsth2 {
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 0.05em;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 #firsth3 {
+    font-size: 35px;
+    line-height: 51px;
+    letter-spacing: 0.4em;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 p {
+    width: 75%;
+    font-size: 22px;
+    line-height: 24px;
+    margin-top: 10%;
+  }
+  .main-container .hero .background-rec .group-34 .book-now {
+    width: 220px;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 15px 23px;
+  }
+  .main-container .hero .background-rec .group-34 .scroll {
+    width: 60px;
+    height: 87px;
+    gap: 10%;
+  }
+  .main-container .hero .background-rec .group-34 .scroll p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+  }
+  .main-container .hero .background-rec .group-34 .scroll .mouse {
+    width: 34px;
+    height: 55px;
+  }
+  .main-container .container #breakfastInfo {
+    font-size: 26px;
+    line-height: 38px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  .main-container .container #group-29 {
+    height: 45vh;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-container .container #group-29 .left {
+    width: 40%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 12px;
+    padding-left: 3%;
+    padding-right: 2%;
+  }
+  .main-container .container #group-29 .left h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .main-container .container #group-29 .left p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .main-container .container #group-29 .left button {
+    width: 170px;
+    height: 43px;
+    padding: 15px 23px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+  }
+  .main-container .container #group-29 .right {
+    width: 55%;
+  }
+  .main-container .container #group-29 .right .overlay {
+    font-size: 20px;
+    padding: 20px;
+  }
+  .main-container .container #group-29 .right .image {
+    width: 55vw;
+    height: 40vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .main-container .testimonials {
+    text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 8vh;
+  }
+  .main-container .testimonials h2 {
+    font-size: 40px;
+    line-height: 72px;
+    margin-bottom: 4vh;
+  }
+  .main-container .testimonials .first {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 2vh;
+  }
+  .main-container .testimonials .second {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 2vh;
+  }
+  .main-container .testimonials .arrows {
+    gap: 21px;
+    margin-bottom: 10vh;
+  }
+  .main-container .testimonials .arrows .arrow {
+    font-size: 24px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 832px) {
+  .main-container .hero .background-rec .group-34 .group-31 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    left: 25%;
+    text-align: center;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 #firsth1 {
+    font-size: 35px;
+    line-height: 51px;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 #firsth2 {
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 0.05em;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 #firsth3 {
+    font-size: 35px;
+    line-height: 51px;
+    letter-spacing: 0.4em;
+  }
+  .main-container .hero .background-rec .group-34 .group-31 p {
+    width: 75%;
+    font-size: 22px;
+    line-height: 24px;
+    margin-top: 10%;
+  }
+  .main-container .hero .background-rec .group-34 .book-now {
+    width: 220px;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 15px 23px;
+  }
+  .main-container .hero .background-rec .group-34 .scroll {
+    width: 60px;
+    height: 87px;
+    gap: 10%;
+  }
+  .main-container .hero .background-rec .group-34 .scroll p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+  }
+  .main-container .hero .background-rec .group-34 .scroll .mouse {
+    width: 34px;
+    height: 55px;
+  }
+  .main-container .container {
+    gap: 30px;
+    height: auto;
+  }
+  .main-container .container #breakfastInfo {
+    font-size: 26px;
+    line-height: 38px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .main-container .container #group-29 {
+    height: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .main-container .container #group-29 .left {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 12px;
+    padding-left: 3%;
+    padding-right: 0%;
+    margin-bottom: 4vh;
+  }
+  .main-container .container #group-29 .left h2 {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .main-container .container #group-29 .left p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .main-container .container #group-29 .left button {
+    width: 170px;
+    height: 43px;
+    padding: 15px 23px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .main-container .container #group-29 .right {
+    width: 100%;
+  }
+  .main-container .container #group-29 .right .overlay {
+    font-size: 20px;
+    padding: 20px;
+  }
+  .main-container .container #group-29 .right .image {
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .main-container .testimonials {
+    height: auto;
+    width: 95vw;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    contain: content;
+    overflow: hidden;
+  }
+  .main-container .testimonials h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .main-container .testimonials .first {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 2vh;
+  }
+  .main-container .testimonials .second {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 2vh;
+  }
+  .main-container .testimonials .arrows {
+    gap: 21px;
+    margin-bottom: 10vh;
+  }
+  .main-container .testimonials .arrows .arrow {
+    font-size: 24px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 531px) {
+  .group-31 #firsth1 {
+    font-size: 30px;
+    line-height: 46px;
+  }
+  .group-31 #firsth2 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .group-31 #firsth3 {
+    font-size: 30px;
+    line-height: 46px;
+  }
+  .group-31 p {
+    display: none;
+  }
 }
