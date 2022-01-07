@@ -2,35 +2,42 @@
     <div class="arrow-up">
     </div>
     <div class="container">
-        <div class="contacts">
-            <p>LUXURY
-            </p>
-            <p>HOTELS</p>
-            <p>497 Evergreen Rd. Roseville, CA 95673</p>
-            <p>+44 345 678 903</p>
-            <p>luxury_hotels@gmail.com</p>
-        </div>
-        <div class="links">
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
-            <a href="#">Terms & conditions</a>
-        </div>
-        <div class="media">
-            <div class="fb">
-                <p>Facebook</p>
+        <div class="container-content">
+            <div class="contacts">
+                <div class="title">
+                    <p class="corm fontStyle1">LUXURY</p>
+                    <p class="corm fontStyle2">HOTELS</p>
+                </div>
+                <p class="mont fontStyle">497 Evergreen Rd. Roseville, CA 95673</p>
+                <p class="mont fontStyle">+44 345 678 903</p>
+                <p class="mont fontStyle">luxury_hotels@gmail.com</p>
             </div>
-            <div class="tw">
-                <p>Twitter</p>
+            <div class="links mont unselectable">
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Terms & conditions</a>
             </div>
-            <div class="Ig">
-                <p>Instagram</p>
+            <div class="media mont unselectable">
+                <div class="fb social">
+                    <fa-icon id="fb" [icon]="faFacebookF"></fa-icon>
+                    <p>Facebook</p>
+                </div>
+                <div class="tw social">
+                    <fa-icon id="tw" [icon]="faTwitter"></fa-icon>
+                    <p>Twitter</p>
+                </div>
+                <div class="Ig social">
+                    <fa-icon id="ig" [icon]="faInstagram"></fa-icon>
+                    <p>Instagram</p>
+                </div>
             </div>
-        </div>
-        <div class="newsletter">
-            <p>Subscribe to our newsletter
-            </p>
-            <div class="email">
-                <div class="address">Email Address<span>OK</span></div>
+            <div class="newsletter mont unselectable">
+                <p>Subscribe to our newsletter
+                </p>
+                <div class="email">
+                    <input type="email" placeholder="Email Address">
+                    <span>OK</span>
+                </div>
             </div>
         </div>
     </div>
