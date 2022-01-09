@@ -5,12 +5,16 @@
         <p>hotels</p>
     </div>
 
-    <div class="group-32 mont" (window:resize)="changeState()">
+    <div class="group-32 mont" (window:resize)="changeNavVisibility()">
         <fa-icon id="burger" [icon]="faBars" class="nonVisible" (click)="onBurgerClick()"></fa-icon>
-        <a href="/landing-page" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Home</a>
-        <a href="/facilities" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Facilities</a>
-        <a href="#" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Rooms</a>
-        <a href="#" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Contact-us</a>
+        <a href="/landing-page" [ngClass]="{'visible':this.navLinksVisibility=== 1, 
+        'nonVisible':this.navLinksVisibility=== 0, 
+        'active':this.activeHome}">
+            Home
+        </a>
+        <a href="/facilities" [ngClass]="{'visible':this.navLinksVisibility=== 1, 'nonVisible':this.navLinksVisibility=== 0,  'active':this.activeFacilities}">Facilities</a>
+        <a href=" #" [ngClass]="{'visible':this.navLinksVisibility=== 1, 'nonVisible':this.navLinksVisibility=== 0,  'active':this.activeRooms}">Rooms</a>
+        <a href="#" [ngClass]="{'visible':this.navLinksVisibility=== 1, 'nonVisible':this.navLinksVisibility=== 0,  'active':this.activeContact}">Contact-us</a>
     </div>
 
 </div>

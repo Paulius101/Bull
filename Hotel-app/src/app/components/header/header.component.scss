@@ -80,10 +80,12 @@
        color: #FFFFFF;
      }
 
-     a:first-of-type {
-       font-weight: 700;
+     .active {
        border-bottom: 1px solid white;
+       font-weight: 700;
      }
+
+
 
      a:hover {
        color: #E0B973;
@@ -140,8 +142,10 @@
      }
 
      .group-32 {
-
-
+       flex-direction: column;
+       align-items: flex-end;
+       z-index: 2;
+       background-color: rgba(0, 0, 0, 0.5);
 
        #burger {
          display: flex;

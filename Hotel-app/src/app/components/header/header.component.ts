@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -8,28 +9,67 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 })
 export class HeaderComponent implements OnInit {
 public faBars = faBars;
-public state:number = 1;
+public navLinksVisibility:number = 1;
+public activeHome: boolean = false;
+public activeFacilities:boolean = false;
+public activeRooms:boolean = false;
+public activeContact:boolean = false;
 
-  constructor() { 
-    this.changeState()
+
+  constructor(private route:ActivatedRoute) { 
+    this.changeNavVisibility()
   }
 
   ngOnInit(): void {
+if (this.route.snapshot.routeConfig?.path === 'landing-page' ) {
+  
+this.activateHome()
+  
+}
+if (this.route.snapshot.routeConfig?.path === 'facilities' ) {
+this.activateFacilities()
+  
+}
+
   }
 
 
   public onBurgerClick() {
-    this.state === 0 ? this.state = 1  : this.state = 0; 
+    this.navLinksVisibility === 0 ? this.navLinksVisibility = 1  : this.navLinksVisibility = 0; 
   }
 
-  public changeState() {
+  public changeNavVisibility() {
     if(window.innerWidth < 794) {
-      this.state = 0
+      this.navLinksVisibility = 0
     }
     else {
-      this.state = 1
-    }
-    console.log(window.innerWidth);
-    
+      this.navLinksVisibility = 1
+    } 
   }
+
+  public activateFacilities() {
+ this.activeHome = false;
+ this.activeFacilities = true;
+ this.activeRooms = false;
+ this.activeContact = false;
+  }
+public activateRooms() {
+ this.activeHome = false;
+ this.activeFacilities = false;
+ this.activeRooms = true;
+ this.activeContact = false;
+  }
+  public activateContact() {
+ this.activeHome = false;
+ this.activeFacilities = false;
+ this.activeRooms = false;
+ this.activeContact = true;
+  }
+  public activateHome() {
+ this.activeHome = true;
+ this.activeFacilities = false;
+ this.activeRooms = false;
+ this.activeContact = false;
+  }
+
 }

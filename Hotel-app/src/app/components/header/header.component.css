@@ -96,9 +96,9 @@
   color: #FFFFFF;
 }
 
-.group-33 .group-32 a:first-of-type {
-  font-weight: 700;
+.group-33 .group-32 .active {
   border-bottom: 1px solid white;
+  font-weight: 700;
 }
 
 .group-33 .group-32 a:hover {
@@ -141,6 +141,17 @@
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 0.6em;
+  }
+  .group-33 .group-32 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
   }
   .group-33 .group-32 #burger {
     display: -webkit-box;
