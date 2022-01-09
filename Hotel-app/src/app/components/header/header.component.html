@@ -5,10 +5,10 @@
         <p>hotels</p>
     </div>
 
-    <div class="group-32 mont">
+    <div class="group-32 mont" (window:resize)="changeState()">
         <fa-icon id="burger" [icon]="faBars" class="nonVisible" (click)="onBurgerClick()"></fa-icon>
-        <a href="#" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Home</a>
-        <a href="#" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Facilities</a>
+        <a href="/landing-page" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Home</a>
+        <a href="/facilities" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Facilities</a>
         <a href="#" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Rooms</a>
         <a href="#" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Contact-us</a>
     </div>

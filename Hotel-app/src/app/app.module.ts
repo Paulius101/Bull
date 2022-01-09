@@ -9,6 +9,7 @@ import { RoomComponent } from './components/room/room.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FacilitiesComponent } from './components/facilities/facilities.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     RoomComponent,
     LandingPageComponent,
-    FooterComponent
+    FooterComponent,
+    FacilitiesComponent
   ],
   imports: [
     BrowserModule,

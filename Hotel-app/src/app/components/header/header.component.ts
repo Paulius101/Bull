@@ -8,9 +8,11 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 })
 export class HeaderComponent implements OnInit {
 public faBars = faBars;
-public state:number = 0;
+public state:number = 1;
 
-  constructor() { }
+  constructor() { 
+    this.changeState()
+  }
 
   ngOnInit(): void {
   }
@@ -18,5 +20,16 @@ public state:number = 0;
 
   public onBurgerClick() {
     this.state === 0 ? this.state = 1  : this.state = 0; 
+  }
+
+  public changeState() {
+    if(window.innerWidth < 794) {
+      this.state = 0
+    }
+    else {
+      this.state = 1
+    }
+    console.log(window.innerWidth);
+    
   }
 }

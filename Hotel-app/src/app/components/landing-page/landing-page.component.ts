@@ -22,25 +22,13 @@ import {
 })
 export class LandingPageComponent implements OnInit {
   public faAngleLeft = faAngleLeft;
-  public faAngleRight = faAngleRight
-  public testimonials: testimonial[] = []
-  public currentTestimonial = 0;
+  public faAngleRight = faAngleRight;
 
-  constructor(testimonialsService: TestimonialsService) {
-    this.testimonials = testimonialsService.testimonials
+  constructor(public testimonialsService: TestimonialsService) {
+
   }
 
-public onPreviousClick() {
-  const previous = this.currentTestimonial - 1;
-  this.currentTestimonial = previous < 0 ? this.testimonials.length - 1 : previous;
-    // console.log("previous clicked, new current testimonial is: ", this.currentTestimonial);
-}
 
-public onNextClick() {
-    const next = this.currentTestimonial + 1;
-    this.currentTestimonial = next === this.testimonials.length ? 0 : next;
-    // console.log("next clicked, new current testimonial is: ", this.currentTestimonial);
-  }
 
   ngOnInit(): void {
     const listAnim = gsap.timeline({
