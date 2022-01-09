@@ -70,6 +70,24 @@
   font-style: normal;
 }
 
+.group-33 .group-32 #burger {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+}
+
+.group-33 .group-32 .nonVisible {
+  display: none;
+}
+
+.group-33 .group-32 #burger:hover {
+  cursor: pointer;
+}
+
 .group-33 .group-32 a {
   text-decoration: none;
   font-weight: 400;
@@ -123,6 +141,19 @@
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 0.6em;
+  }
+  .group-33 .group-32 #burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .group-33 .group-32 .visible {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .group-33 .group-32 a {
     -webkit-transition: all 0.5s linear;

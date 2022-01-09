@@ -1,12 +1,16 @@
 <div class="group-33">
+
     <div class="group-2 corm">
         <p>luxury</p>
         <p>hotels</p>
     </div>
+
     <div class="group-32 mont">
-        <a href="#">Home</a>
-        <a href="#">Facilities</a>
-        <a href="#">Rooms</a>
-        <a href="#">Contact-us</a>
+        <fa-icon id="burger" [icon]="faBars" class="nonVisible" (click)="onBurgerClick()"></fa-icon>
+        <a href="#" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Home</a>
+        <a href="#" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Facilities</a>
+        <a href="#" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Rooms</a>
+        <a href="#" [ngClass]="{'visible':this.state === 1, 'nonVisible':this.state === 0}">Contact-us</a>
     </div>
+
 </div>

@@ -42,7 +42,12 @@
      }
    }
 
+
+
+
+
    .group-32 {
+
      display: flex;
      width: 50%;
      justify-content: space-between;
@@ -50,6 +55,22 @@
      margin-left: 50%;
      font-style: normal;
 
+
+     #burger {
+       align-items: center;
+       width: 50px;
+       height: 50px;
+       font-size: 30px;
+       color: white;
+     }
+
+     .nonVisible {
+       display: none;
+     }
+
+     #burger:hover {
+       cursor: pointer;
+     }
 
      a {
        text-decoration: none;
@@ -120,6 +141,18 @@
 
      .group-32 {
 
+
+
+       #burger {
+         display: flex;
+         position: absolute;
+         top: 0;
+         right: 0;
+       }
+
+       .visible {
+         display: flex;
+       }
 
        a {
          transition: all 0.5s linear;
