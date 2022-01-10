@@ -21,7 +21,7 @@ public activeContact:boolean = false;
   }
 
   ngOnInit(): void {
-if (this.route.snapshot.routeConfig?.path === 'landing-page' ) {
+if (this.route.snapshot.routeConfig?.path === 'landing-page' || this.route.snapshot.routeConfig?.path === ''  || this.route.snapshot.routeConfig?.path === '#breakfastInfo') {
   
 this.activateHome()
   
